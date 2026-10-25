@@ -1,0 +1,7 @@
+# Original media and generated output stay out of git
+input/*
+exports/*
+previews/*
+!*/.gitkeep
+node_modules/
+.DS_Store
