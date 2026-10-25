@@ -1,0 +1,80 @@
+{
+  "source": "projects/bulandshahr-ai-website/work/proxy/IMG_6061.mp4",
+  "language": "hi",
+  "duration": 7.488,
+  "words": [
+    {
+      "word": "पूरा",
+      "start": 0.0,
+      "end": 0.64,
+      "prob": 0.829
+    },
+    {
+      "word": "टूटोरियाल",
+      "start": 0.64,
+      "end": 1.1,
+      "prob": 0.732
+    },
+    {
+      "word": "आगे",
+      "start": 1.1,
+      "end": 1.36,
+      "prob": 0.84
+    },
+    {
+      "word": "है",
+      "start": 1.36,
+      "end": 1.42,
+      "prob": 0.96
+    },
+    {
+      "word": "विडियो",
+      "start": 1.42,
+      "end": 1.82,
+      "prob": 0.82
+    },
+    {
+      "word": "में",
+      "start": 1.82,
+      "end": 2.16,
+      "prob": 0.826
+    },
+    {
+      "word": "तो",
+      "start": 2.16,
+      "end": 2.26,
+      "prob": 0.881
+    },
+    {
+      "word": "अंथक",
+      "start": 2.26,
+      "end": 2.76,
+      "prob": 0.62
+    },
+    {
+      "word": "देखना",
+      "start": 2.76,
+      "end": 6.56,
+      "prob": 0.901
+    },
+    {
+      "word": "राम",
+      "start": 6.56,
+      "end": 6.82,
+      "prob": 0.798
+    },
+    {
+      "word": "से.",
+      "start": 6.82,
+      "end": 6.98,
+      "prob": 0.748
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.98,
+      "text": "पूरा टूटोरियाल आगे है विडियो में तो अंथक देखना राम से."
+    }
+  ]
+}

@@ -23,3 +23,14 @@ __pycache__/
 .env.*
 *.pem
 *.key
+
+projects/*/work/proxy/
+projects/*/work/proxy_hdr_old/
+projects/*/work/master*.webm
+projects/*/work/master*.mp4
+projects/bulandshahr-ai-website/exports/bulandshahr-ai-website.mp4
+projects/*/hyperframes/assets/*.webm
+projects/*/hyperframes/assets/broll/
+projects/*/work/qa/
+projects/*/work/overview/
+projects/*/work/cutout/

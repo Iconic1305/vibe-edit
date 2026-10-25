@@ -1,0 +1,223 @@
+{
+  "source": "work/proxy/IMG_6067.mp4",
+  "language": "hi",
+  "duration": 11.392,
+  "words": [
+    {
+      "word": "तो",
+      "start": 0.69,
+      "end": 0.88,
+      "prob": 0.739,
+      "orig_start": 0.0,
+      "orig_end": 0.8
+    },
+    {
+      "word": "सबसे",
+      "start": 0.88,
+      "end": 1.15,
+      "prob": 0.866,
+      "orig_start": 0.8,
+      "orig_end": 1.06
+    },
+    {
+      "word": "पहले",
+      "start": 1.15,
+      "end": 1.37,
+      "prob": 0.851,
+      "orig_start": 1.06,
+      "orig_end": 1.28
+    },
+    {
+      "word": "ChatGPT",
+      "start": 1.37,
+      "end": 1.93,
+      "prob": 0.455,
+      "orig_start": 1.28,
+      "orig_end": 1.84
+    },
+    {
+      "word": "पर",
+      "start": 1.93,
+      "end": 2.07,
+      "prob": 0.927,
+      "orig_start": 1.84,
+      "orig_end": 1.98
+    },
+    {
+      "word": "जाएंगे",
+      "start": 2.07,
+      "end": 2.32,
+      "prob": 0.89,
+      "orig_start": 1.98,
+      "orig_end": 2.5
+    },
+    {
+      "word": "और",
+      "start": 2.63,
+      "end": 2.93,
+      "prob": 0.907,
+      "orig_start": 2.5,
+      "orig_end": 2.84
+    },
+    {
+      "word": "ChatGPT",
+      "start": 2.93,
+      "end": 3.57,
+      "prob": 0.838,
+      "orig_start": 2.84,
+      "orig_end": 3.48
+    },
+    {
+      "word": "को",
+      "start": 3.57,
+      "end": 3.73,
+      "prob": 0.945,
+      "orig_start": 3.48,
+      "orig_end": 3.64
+    },
+    {
+      "word": "हमारे",
+      "start": 3.73,
+      "end": 4.05,
+      "prob": 0.91,
+      "orig_start": 3.64,
+      "orig_end": 3.96
+    },
+    {
+      "word": "business",
+      "start": 4.05,
+      "end": 4.35,
+      "prob": 0.25,
+      "orig_start": 3.96,
+      "orig_end": 4.26
+    },
+    {
+      "word": "की",
+      "start": 4.35,
+      "end": 4.59,
+      "prob": 0.794,
+      "orig_start": 4.26,
+      "orig_end": 4.5
+    },
+    {
+      "word": "जोभी",
+      "start": 4.59,
+      "end": 4.87,
+      "prob": 0.857,
+      "orig_start": 4.5,
+      "orig_end": 4.78
+    },
+    {
+      "word": "details",
+      "start": 4.87,
+      "end": 5.17,
+      "prob": 0.498,
+      "orig_start": 4.78,
+      "orig_end": 5.08
+    },
+    {
+      "word": "हमारे",
+      "start": 5.17,
+      "end": 5.5,
+      "prob": 0.876,
+      "orig_start": 5.08,
+      "orig_end": 5.42
+    },
+    {
+      "word": "पास",
+      "start": 5.5,
+      "end": 5.65,
+      "prob": 0.953,
+      "orig_start": 5.42,
+      "orig_end": 5.58
+    },
+    {
+      "word": "अविलेबिल",
+      "start": 5.65,
+      "end": 6.11,
+      "prob": 0.746,
+      "orig_start": 5.58,
+      "orig_end": 6.02
+    },
+    {
+      "word": "हैं,",
+      "start": 6.11,
+      "end": 6.33,
+      "prob": 0.869,
+      "orig_start": 6.02,
+      "orig_end": 6.24
+    },
+    {
+      "word": "विद",
+      "start": 6.33,
+      "end": 6.59,
+      "prob": 0.751,
+      "orig_start": 6.28,
+      "orig_end": 6.5
+    },
+    {
+      "word": "लोगो,",
+      "start": 6.59,
+      "end": 6.74,
+      "prob": 0.947,
+      "orig_start": 6.5,
+      "orig_end": 8.46
+    },
+    {
+      "word": "विद",
+      "start": 8.67,
+      "end": 9.11,
+      "prob": 0.954,
+      "orig_start": 8.68,
+      "orig_end": 9.02
+    },
+    {
+      "word": "लोगो,",
+      "start": 9.11,
+      "end": 9.75,
+      "prob": 0.981,
+      "orig_start": 9.02,
+      "orig_end": 9.66
+    },
+    {
+      "word": "ChatGPT",
+      "start": 9.75,
+      "end": 10.37,
+      "prob": 0.937,
+      "orig_start": 9.72,
+      "orig_end": 10.28
+    },
+    {
+      "word": "को",
+      "start": 10.37,
+      "end": 10.47,
+      "prob": 0.886,
+      "orig_start": 10.28,
+      "orig_end": 10.38
+    },
+    {
+      "word": "दे",
+      "start": 10.47,
+      "end": 10.63,
+      "prob": 0.945,
+      "orig_start": 10.38,
+      "orig_end": 10.54
+    },
+    {
+      "word": "देंगे.",
+      "start": 10.63,
+      "end": 10.69,
+      "prob": 0.883,
+      "orig_start": 10.54,
+      "orig_end": 10.78
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.78,
+      "text": "तो सबसे पहले ChatGPT पर जाएंगे और ChatGPT को हमारे business की जोभी details हमारे पास अविलेबिल हैं, विद लोगो, विद लोगो, ChatGPT को दे देंगे."
+    }
+  ],
+  "energy_threshold_db": -49.5
+}

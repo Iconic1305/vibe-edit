@@ -23,7 +23,8 @@ step() { printf '\n== %s\n' "$*"; }
 
 if [ "$build" = 1 ]; then
   step "1/6 generate compositions from edit.json"
-  python3 "$root/scripts/build_edit.py" "$proj"
+  builder="$(python3 -c "import json;print(json.load(open('$proj/edit.json')).get('builder','edit'))" 2>/dev/null || echo edit)"
+  if [ "$builder" = "reel" ]; then python3 "$root/scripts/build_reel.py" "$proj"; else python3 "$root/scripts/build_edit.py" "$proj"; fi
 fi
 
 step "2/6 bundle GSAP locally (no CDN)"

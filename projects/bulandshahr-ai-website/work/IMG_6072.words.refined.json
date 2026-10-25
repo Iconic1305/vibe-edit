@@ -1,0 +1,119 @@
+{
+  "source": "work/proxy/IMG_6072.mp4",
+  "language": "hi",
+  "duration": 4.501,
+  "words": [
+    {
+      "word": "AI",
+      "start": 0.71,
+      "end": 1.05,
+      "prob": 0.322,
+      "orig_start": 0.0,
+      "orig_end": 0.96
+    },
+    {
+      "word": "से",
+      "start": 1.05,
+      "end": 1.23,
+      "prob": 0.943,
+      "orig_start": 0.96,
+      "orig_end": 1.14
+    },
+    {
+      "word": "related",
+      "start": 1.23,
+      "end": 1.51,
+      "prob": 0.225,
+      "orig_start": 1.14,
+      "orig_end": 1.42
+    },
+    {
+      "word": "और",
+      "start": 1.51,
+      "end": 1.75,
+      "prob": 0.886,
+      "orig_start": 1.42,
+      "orig_end": 1.66
+    },
+    {
+      "word": "भी",
+      "start": 1.75,
+      "end": 1.89,
+      "prob": 0.851,
+      "orig_start": 1.66,
+      "orig_end": 1.8
+    },
+    {
+      "word": "content",
+      "start": 1.89,
+      "end": 2.17,
+      "prob": 0.979,
+      "orig_start": 1.8,
+      "orig_end": 2.08
+    },
+    {
+      "word": "देखना",
+      "start": 2.17,
+      "end": 2.47,
+      "prob": 0.925,
+      "orig_start": 2.08,
+      "orig_end": 2.38
+    },
+    {
+      "word": "हैं,",
+      "start": 2.47,
+      "end": 2.53,
+      "prob": 0.676,
+      "orig_start": 2.38,
+      "orig_end": 2.48
+    },
+    {
+      "word": "तो",
+      "start": 2.53,
+      "end": 2.67,
+      "prob": 0.937,
+      "orig_start": 2.48,
+      "orig_end": 2.58
+    },
+    {
+      "word": "follow",
+      "start": 2.67,
+      "end": 2.93,
+      "prob": 0.782,
+      "orig_start": 2.58,
+      "orig_end": 2.84
+    },
+    {
+      "word": "ज़रूर",
+      "start": 2.93,
+      "end": 3.41,
+      "prob": 0.807,
+      "orig_start": 2.84,
+      "orig_end": 3.32
+    },
+    {
+      "word": "करके",
+      "start": 3.41,
+      "end": 3.54,
+      "prob": 0.806,
+      "orig_start": 3.32,
+      "orig_end": 3.6
+    },
+    {
+      "word": "रखनू.",
+      "start": 3.54,
+      "end": 3.6,
+      "prob": 0.673,
+      "orig_start": 3.6,
+      "orig_end": 3.92
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.92,
+      "text": "AI से related और भी content देखना हैं, तो follow ज़रूर करके रखनू."
+    }
+  ],
+  "energy_threshold_db": -50.3
+}

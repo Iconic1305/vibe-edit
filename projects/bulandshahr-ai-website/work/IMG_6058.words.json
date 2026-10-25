@@ -1,0 +1,158 @@
+{
+  "source": "work/proxy/IMG_6058.mp4",
+  "language": "hi",
+  "duration": 7.552,
+  "words": [
+    {
+      "word": "आज",
+      "start": 0.66,
+      "end": 1.2,
+      "prob": 0.79
+    },
+    {
+      "word": "न",
+      "start": 1.2,
+      "end": 1.32,
+      "prob": 0.74
+    },
+    {
+      "word": "60",
+      "start": 1.32,
+      "end": 1.68,
+      "prob": 0.08
+    },
+    {
+      "word": "सेकंज",
+      "start": 1.68,
+      "end": 2.02,
+      "prob": 0.647
+    },
+    {
+      "word": "के",
+      "start": 2.02,
+      "end": 2.14,
+      "prob": 0.845
+    },
+    {
+      "word": "अंदर",
+      "start": 2.14,
+      "end": 2.36,
+      "prob": 0.809
+    },
+    {
+      "word": "Bulandshahr",
+      "start": 2.36,
+      "end": 2.84,
+      "prob": 0.175
+    },
+    {
+      "word": "के",
+      "start": 2.84,
+      "end": 3.0,
+      "prob": 0.913
+    },
+    {
+      "word": "एक",
+      "start": 3.0,
+      "end": 3.2,
+      "prob": 0.808
+    },
+    {
+      "word": "viral",
+      "start": 3.2,
+      "end": 3.48,
+      "prob": 0.47
+    },
+    {
+      "word": "closing",
+      "start": 3.48,
+      "end": 3.82,
+      "prob": 0.925
+    },
+    {
+      "word": "store",
+      "start": 3.82,
+      "end": 4.1,
+      "prob": 0.95
+    },
+    {
+      "word": "की",
+      "start": 4.1,
+      "end": 4.26,
+      "prob": 0.745
+    },
+    {
+      "word": "पूरी",
+      "start": 4.26,
+      "end": 4.52,
+      "prob": 0.875
+    },
+    {
+      "word": "website",
+      "start": 4.52,
+      "end": 4.82,
+      "prob": 0.783
+    },
+    {
+      "word": "बना",
+      "start": 4.82,
+      "end": 5.12,
+      "prob": 0.873
+    },
+    {
+      "word": "के",
+      "start": 5.12,
+      "end": 5.2,
+      "prob": 0.627
+    },
+    {
+      "word": "दिखाँगा,",
+      "start": 5.2,
+      "end": 5.52,
+      "prob": 0.793
+    },
+    {
+      "word": "सिर्फ",
+      "start": 5.56,
+      "end": 5.84,
+      "prob": 0.424
+    },
+    {
+      "word": "दो",
+      "start": 5.84,
+      "end": 6.06,
+      "prob": 0.701
+    },
+    {
+      "word": "AI",
+      "start": 6.06,
+      "end": 6.28,
+      "prob": 0.938
+    },
+    {
+      "word": "tools",
+      "start": 6.28,
+      "end": 6.58,
+      "prob": 0.334
+    },
+    {
+      "word": "का",
+      "start": 6.58,
+      "end": 6.68,
+      "prob": 0.87
+    },
+    {
+      "word": "इसकरे.",
+      "start": 6.68,
+      "end": 7.14,
+      "prob": 0.585
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.66,
+      "end": 7.14,
+      "text": "आज न 60 सेकंज के अंदर Bulandshahr के एक viral closing store की पूरी website बना के दिखाँगा, सिर्फ दो AI tools का इसकरे."
+    }
+  ]
+}

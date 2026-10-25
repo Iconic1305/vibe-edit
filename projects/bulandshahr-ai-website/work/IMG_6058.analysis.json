@@ -1,0 +1,57 @@
+{
+  "source": "work/proxy/IMG_6058.mp4",
+  "duration": 7.55,
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "orientation": "vertical",
+    "fps": 30.0,
+    "codec": "h264",
+    "rotation": 0
+  },
+  "audio": {
+    "present": true,
+    "mean_volume_db": -30.6,
+    "peak_volume_db": -13.3,
+    "silences": [
+      {
+        "start": 0.0,
+        "end": 0.98
+      },
+      {
+        "start": 7.13,
+        "end": 7.55
+      }
+    ]
+  },
+  "luma": {
+    "fps": 1.0,
+    "mean": 143.5,
+    "samples": [
+      145.062,
+      144.241,
+      141.709,
+      140.688,
+      142.992,
+      149.229,
+      137.617,
+      146.223
+    ]
+  },
+  "motion": {
+    "fps": 1.0,
+    "mean_diff": 19.894,
+    "samples": [
+      0.0,
+      17.7139,
+      14.2233,
+      19.4727,
+      21.1398,
+      33.714,
+      25.3522,
+      27.5355
+    ]
+  },
+  "scene_cuts": [],
+  "flags": []
+}

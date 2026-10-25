@@ -1,3 +1,9 @@
-# Names Whisper must spell right
+# Names Whisper must spell right (only names visible on screen in the footage or spoken by the host)
 Bulandshahr
-# add: the two AI tool names, the store name, your name/handle
+ChatGPT
+Claude Design
+D' Closet
+dcloset.checkstore.in
+AI
+website
+prompt

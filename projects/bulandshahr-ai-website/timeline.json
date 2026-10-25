@@ -1,0 +1,51 @@
+{
+ "format": "9:16",
+ "clips": [
+  {
+   "id": "IMG_6058",
+   "media": "work/proxy/IMG_6058.mp4",
+   "words": "work/IMG_6058.words.json"
+  },
+  {
+   "id": "IMG_6060",
+   "media": "work/proxy/IMG_6060.mp4",
+   "words": "work/IMG_6060.words.json"
+  },
+  {
+   "id": "IMG_6061",
+   "media": "work/proxy/IMG_6061.mp4",
+   "words": "work/IMG_6061.words.json"
+  },
+  {
+   "id": "IMG_6067",
+   "media": "work/proxy/IMG_6067.mp4",
+   "words": "work/IMG_6067.words.json"
+  },
+  {
+   "id": "IMG_6119",
+   "media": "work/proxy/IMG_6119.mp4",
+   "words": "work/IMG_6119.words.json"
+  },
+  {
+   "id": "IMG_6134",
+   "media": "work/proxy/IMG_6134.mp4",
+   "words": "work/IMG_6134.words.json"
+  },
+  {
+   "id": "IMG_6132",
+   "media": "work/proxy/IMG_6132.mp4",
+   "words": "work/IMG_6132.words.json"
+  },
+  {
+   "id": "IMG_6072",
+   "media": "work/proxy/IMG_6072.mp4",
+   "words": "work/IMG_6072.words.json"
+  }
+ ],
+ "unused": {
+  "IMG_6073": "2.2 s, speech unintelligible",
+  "IMG_6105": "retake of IMG_6067, garbled audio",
+  "IMG_6128": "no intelligible speech detected",
+  "ScreenRecording_10-06-2026_15-17-17_1": "B-roll only (no audio)"
+ }
+}

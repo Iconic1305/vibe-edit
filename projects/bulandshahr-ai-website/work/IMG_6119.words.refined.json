@@ -1,0 +1,247 @@
+{
+  "source": "work/proxy/IMG_6119.mp4",
+  "language": "hi",
+  "duration": 9.152,
+  "words": [
+    {
+      "word": "So",
+      "start": 0.63,
+      "end": 0.83,
+      "prob": 0.08,
+      "orig_start": 0.0,
+      "orig_end": 0.74
+    },
+    {
+      "word": "भी",
+      "start": 0.83,
+      "end": 0.96,
+      "prob": 0.662,
+      "orig_start": 0.74,
+      "orig_end": 0.9
+    },
+    {
+      "word": "जो",
+      "start": 0.96,
+      "end": 1.11,
+      "prob": 0.805,
+      "orig_start": 0.9,
+      "orig_end": 1.02
+    },
+    {
+      "word": "ChatGPT",
+      "start": 1.11,
+      "end": 1.63,
+      "prob": 0.336,
+      "orig_start": 1.02,
+      "orig_end": 1.54
+    },
+    {
+      "word": "हमको",
+      "start": 1.63,
+      "end": 1.85,
+      "prob": 0.515,
+      "orig_start": 1.54,
+      "orig_end": 1.76
+    },
+    {
+      "word": "prompt",
+      "start": 1.85,
+      "end": 2.11,
+      "prob": 0.313,
+      "orig_start": 1.76,
+      "orig_end": 2.02
+    },
+    {
+      "word": "मिला",
+      "start": 2.11,
+      "end": 2.3,
+      "prob": 0.751,
+      "orig_start": 2.02,
+      "orig_end": 2.26
+    },
+    {
+      "word": "हैं,",
+      "start": 2.3,
+      "end": 2.43,
+      "prob": 0.429,
+      "orig_start": 2.26,
+      "orig_end": 2.34
+    },
+    {
+      "word": "इसको",
+      "start": 2.43,
+      "end": 2.63,
+      "prob": 0.947,
+      "orig_start": 2.38,
+      "orig_end": 2.54
+    },
+    {
+      "word": "simply",
+      "start": 2.63,
+      "end": 3.07,
+      "prob": 0.329,
+      "orig_start": 2.54,
+      "orig_end": 2.98
+    },
+    {
+      "word": "उठाकर",
+      "start": 3.07,
+      "end": 3.48,
+      "prob": 0.843,
+      "orig_start": 2.98,
+      "orig_end": 3.42
+    },
+    {
+      "word": "हम",
+      "start": 3.48,
+      "end": 3.63,
+      "prob": 0.879,
+      "orig_start": 3.42,
+      "orig_end": 3.54
+    },
+    {
+      "word": "Claude",
+      "start": 3.63,
+      "end": 3.88,
+      "prob": 0.543,
+      "orig_start": 3.54,
+      "orig_end": 3.8
+    },
+    {
+      "word": "पे",
+      "start": 3.88,
+      "end": 4.02,
+      "prob": 0.751,
+      "orig_start": 3.8,
+      "orig_end": 3.94
+    },
+    {
+      "word": "paste",
+      "start": 4.02,
+      "end": 4.35,
+      "prob": 0.184,
+      "orig_start": 3.94,
+      "orig_end": 4.26
+    },
+    {
+      "word": "करेंगे,",
+      "start": 4.35,
+      "end": 4.83,
+      "prob": 0.936,
+      "orig_start": 4.26,
+      "orig_end": 4.74
+    },
+    {
+      "word": "और",
+      "start": 4.83,
+      "end": 5.07,
+      "prob": 0.79,
+      "orig_start": 4.88,
+      "orig_end": 4.98
+    },
+    {
+      "word": "Claude",
+      "start": 5.07,
+      "end": 5.41,
+      "prob": 0.935,
+      "orig_start": 4.98,
+      "orig_end": 5.32
+    },
+    {
+      "word": "से",
+      "start": 5.41,
+      "end": 5.93,
+      "prob": 0.955,
+      "orig_start": 5.32,
+      "orig_end": 5.84
+    },
+    {
+      "word": "जोभी",
+      "start": 5.93,
+      "end": 6.21,
+      "prob": 0.844,
+      "orig_start": 5.84,
+      "orig_end": 6.14
+    },
+    {
+      "word": "हम",
+      "start": 6.21,
+      "end": 6.29,
+      "prob": 0.956,
+      "orig_start": 6.14,
+      "orig_end": 6.2
+    },
+    {
+      "word": "का",
+      "start": 6.29,
+      "end": 6.41,
+      "prob": 0.488,
+      "orig_start": 6.2,
+      "orig_end": 6.34
+    },
+    {
+      "word": "output",
+      "start": 6.41,
+      "end": 6.75,
+      "prob": 0.227,
+      "orig_start": 6.34,
+      "orig_end": 6.66
+    },
+    {
+      "word": "मिलता",
+      "start": 6.75,
+      "end": 7.23,
+      "prob": 0.903,
+      "orig_start": 6.66,
+      "orig_end": 7.18
+    },
+    {
+      "word": "हैं,",
+      "start": 7.23,
+      "end": 7.57,
+      "prob": 0.797,
+      "orig_start": 7.18,
+      "orig_end": 7.48
+    },
+    {
+      "word": "वो",
+      "start": 7.57,
+      "end": 7.73,
+      "prob": 0.87,
+      "orig_start": 7.52,
+      "orig_end": 7.64
+    },
+    {
+      "word": "देखने",
+      "start": 7.73,
+      "end": 8.12,
+      "prob": 0.943,
+      "orig_start": 7.64,
+      "orig_end": 8.06
+    },
+    {
+      "word": "लायाक",
+      "start": 8.12,
+      "end": 8.29,
+      "prob": 0.759,
+      "orig_start": 8.06,
+      "orig_end": 8.3
+    },
+    {
+      "word": "होगा.",
+      "start": 8.29,
+      "end": 8.35,
+      "prob": 0.874,
+      "orig_start": 8.3,
+      "orig_end": 8.54
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.54,
+      "text": "So भी जो ChatGPT हमको prompt मिला हैं, इसको simply उठाकर हम Claude पे paste करेंगे, और Claude से जोभी हम का output मिलता हैं, वो देखने लायाक होगा."
+    }
+  ],
+  "energy_threshold_db": -48.1
+}

@@ -1,0 +1,92 @@
+{
+  "source": "work/proxy/IMG_6072.mp4",
+  "language": "hi",
+  "duration": 4.501,
+  "words": [
+    {
+      "word": "AI",
+      "start": 0.0,
+      "end": 0.96,
+      "prob": 0.322
+    },
+    {
+      "word": "से",
+      "start": 0.96,
+      "end": 1.14,
+      "prob": 0.943
+    },
+    {
+      "word": "related",
+      "start": 1.14,
+      "end": 1.42,
+      "prob": 0.225
+    },
+    {
+      "word": "और",
+      "start": 1.42,
+      "end": 1.66,
+      "prob": 0.886
+    },
+    {
+      "word": "भी",
+      "start": 1.66,
+      "end": 1.8,
+      "prob": 0.851
+    },
+    {
+      "word": "content",
+      "start": 1.8,
+      "end": 2.08,
+      "prob": 0.979
+    },
+    {
+      "word": "देखना",
+      "start": 2.08,
+      "end": 2.38,
+      "prob": 0.925
+    },
+    {
+      "word": "हैं,",
+      "start": 2.38,
+      "end": 2.48,
+      "prob": 0.676
+    },
+    {
+      "word": "तो",
+      "start": 2.48,
+      "end": 2.58,
+      "prob": 0.937
+    },
+    {
+      "word": "follow",
+      "start": 2.58,
+      "end": 2.84,
+      "prob": 0.782
+    },
+    {
+      "word": "ज़रूर",
+      "start": 2.84,
+      "end": 3.32,
+      "prob": 0.807
+    },
+    {
+      "word": "करके",
+      "start": 3.32,
+      "end": 3.6,
+      "prob": 0.806
+    },
+    {
+      "word": "रखनू.",
+      "start": 3.6,
+      "end": 3.92,
+      "prob": 0.673
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.92,
+      "text": "AI से related और भी content देखना हैं, तो follow ज़रूर करके रखनू."
+    }
+  ]
+}

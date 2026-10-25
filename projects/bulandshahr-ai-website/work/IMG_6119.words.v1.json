@@ -1,0 +1,194 @@
+{
+  "source": "projects/bulandshahr-ai-website/work/proxy/IMG_6119.mp4",
+  "language": "hi",
+  "duration": 9.152,
+  "words": [
+    {
+      "word": "So",
+      "start": 0.36,
+      "end": 0.72,
+      "prob": 0.399
+    },
+    {
+      "word": "अबिज़",
+      "start": 0.72,
+      "end": 0.94,
+      "prob": 0.514
+    },
+    {
+      "word": "चेढ",
+      "start": 0.94,
+      "end": 1.22,
+      "prob": 0.301
+    },
+    {
+      "word": "जी",
+      "start": 1.22,
+      "end": 1.34,
+      "prob": 0.556
+    },
+    {
+      "word": "प्टियो",
+      "start": 1.34,
+      "end": 1.56,
+      "prob": 0.456
+    },
+    {
+      "word": "औंकह",
+      "start": 1.56,
+      "end": 1.7,
+      "prob": 0.197
+    },
+    {
+      "word": "हम",
+      "start": 1.7,
+      "end": 1.7,
+      "prob": 0.532
+    },
+    {
+      "word": "को",
+      "start": 1.7,
+      "end": 1.76,
+      "prob": 0.515
+    },
+    {
+      "word": "परम्ट",
+      "start": 1.76,
+      "end": 2.02,
+      "prob": 0.535
+    },
+    {
+      "word": "मिला",
+      "start": 2.02,
+      "end": 2.24,
+      "prob": 0.756
+    },
+    {
+      "word": "इस",
+      "start": 2.24,
+      "end": 2.4,
+      "prob": 0.798
+    },
+    {
+      "word": "को",
+      "start": 2.4,
+      "end": 2.52,
+      "prob": 0.605
+    },
+    {
+      "word": "सिमपली",
+      "start": 2.52,
+      "end": 3.02,
+      "prob": 0.73
+    },
+    {
+      "word": "उठा",
+      "start": 3.02,
+      "end": 3.26,
+      "prob": 0.901
+    },
+    {
+      "word": "कर",
+      "start": 3.26,
+      "end": 3.4,
+      "prob": 0.691
+    },
+    {
+      "word": "हम",
+      "start": 3.4,
+      "end": 3.48,
+      "prob": 0.619
+    },
+    {
+      "word": "लिए",
+      "start": 3.48,
+      "end": 3.64,
+      "prob": 0.447
+    },
+    {
+      "word": "कृकर",
+      "start": 3.64,
+      "end": 3.74,
+      "prob": 0.124
+    },
+    {
+      "word": "साइवा",
+      "start": 3.74,
+      "end": 4.64,
+      "prob": 0.212
+    },
+    {
+      "word": "से",
+      "start": 4.64,
+      "end": 4.76,
+      "prob": 0.227
+    },
+    {
+      "word": "�",
+      "start": 4.76,
+      "end": 5.6,
+      "prob": 0.57
+    },
+    {
+      "word": "you",
+      "start": 5.6,
+      "end": 6.14,
+      "prob": 0.0
+    },
+    {
+      "word": "will",
+      "start": 6.14,
+      "end": 7.58,
+      "prob": 0.183
+    },
+    {
+      "word": "also",
+      "start": 7.58,
+      "end": 8.44,
+      "prob": 0.023
+    },
+    {
+      "word": "get",
+      "start": 8.44,
+      "end": 9.02,
+      "prob": 0.465
+    },
+    {
+      "word": "a",
+      "start": 9.02,
+      "end": 9.02,
+      "prob": 0.146
+    },
+    {
+      "word": "prompt",
+      "start": 9.02,
+      "end": 9.02,
+      "prob": 0.463
+    },
+    {
+      "word": "in",
+      "start": 9.02,
+      "end": 9.08,
+      "prob": 0.016
+    },
+    {
+      "word": "the",
+      "start": 9.08,
+      "end": 9.08,
+      "prob": 0.29
+    },
+    {
+      "word": "chat.",
+      "start": 9.08,
+      "end": 9.08,
+      "prob": 0.401
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.36,
+      "end": 9.08,
+      "text": "So अबिज़ चेढ जी प्टियो औंकह हम को परम्ट मिला इस को सिमपली उठा कर हम लिए कृकर साइवा से � you will also get a prompt in the chat."
+    }
+  ]
+}

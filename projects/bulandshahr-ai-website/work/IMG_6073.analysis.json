@@ -1,0 +1,43 @@
+{
+  "source": "work/proxy/IMG_6073.mp4",
+  "duration": 2.238,
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "orientation": "vertical",
+    "fps": 30.0,
+    "codec": "h264",
+    "rotation": 0
+  },
+  "audio": {
+    "present": true,
+    "mean_volume_db": -38.6,
+    "peak_volume_db": -19.9,
+    "silences": [
+      {
+        "start": 1.73,
+        "end": 2.24
+      }
+    ]
+  },
+  "luma": {
+    "fps": 1.0,
+    "mean": 140.5,
+    "samples": [
+      143.619,
+      137.292
+    ]
+  },
+  "motion": {
+    "fps": 1.0,
+    "mean_diff": 7.16,
+    "samples": [
+      0.0,
+      14.319
+    ]
+  },
+  "scene_cuts": [],
+  "flags": [
+    "Audio is quiet (mean -38.6 dB): normalise or re-record closer to the mic."
+  ]
+}

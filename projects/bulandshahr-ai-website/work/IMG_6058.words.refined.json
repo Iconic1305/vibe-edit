@@ -1,0 +1,207 @@
+{
+  "source": "work/proxy/IMG_6058.mp4",
+  "language": "hi",
+  "duration": 7.552,
+  "words": [
+    {
+      "word": "आज",
+      "start": 1.0,
+      "end": 1.24,
+      "prob": 0.79,
+      "orig_start": 0.66,
+      "orig_end": 1.2
+    },
+    {
+      "word": "न",
+      "start": 1.24,
+      "end": 1.41,
+      "prob": 0.74,
+      "orig_start": 1.2,
+      "orig_end": 1.32
+    },
+    {
+      "word": "60",
+      "start": 1.41,
+      "end": 1.77,
+      "prob": 0.08,
+      "orig_start": 1.32,
+      "orig_end": 1.68
+    },
+    {
+      "word": "सेकंज",
+      "start": 1.77,
+      "end": 2.11,
+      "prob": 0.647,
+      "orig_start": 1.68,
+      "orig_end": 2.02
+    },
+    {
+      "word": "के",
+      "start": 2.11,
+      "end": 2.23,
+      "prob": 0.845,
+      "orig_start": 2.02,
+      "orig_end": 2.14
+    },
+    {
+      "word": "अंदर",
+      "start": 2.23,
+      "end": 2.45,
+      "prob": 0.809,
+      "orig_start": 2.14,
+      "orig_end": 2.36
+    },
+    {
+      "word": "Bulandshahr",
+      "start": 2.45,
+      "end": 2.93,
+      "prob": 0.175,
+      "orig_start": 2.36,
+      "orig_end": 2.84
+    },
+    {
+      "word": "के",
+      "start": 2.93,
+      "end": 3.09,
+      "prob": 0.913,
+      "orig_start": 2.84,
+      "orig_end": 3.0
+    },
+    {
+      "word": "एक",
+      "start": 3.09,
+      "end": 3.29,
+      "prob": 0.808,
+      "orig_start": 3.0,
+      "orig_end": 3.2
+    },
+    {
+      "word": "viral",
+      "start": 3.29,
+      "end": 3.57,
+      "prob": 0.47,
+      "orig_start": 3.2,
+      "orig_end": 3.48
+    },
+    {
+      "word": "closing",
+      "start": 3.57,
+      "end": 3.81,
+      "prob": 0.925,
+      "orig_start": 3.48,
+      "orig_end": 3.82
+    },
+    {
+      "word": "store",
+      "start": 3.81,
+      "end": 4.18,
+      "prob": 0.95,
+      "orig_start": 3.82,
+      "orig_end": 4.1
+    },
+    {
+      "word": "की",
+      "start": 4.18,
+      "end": 4.35,
+      "prob": 0.745,
+      "orig_start": 4.1,
+      "orig_end": 4.26
+    },
+    {
+      "word": "पूरी",
+      "start": 4.35,
+      "end": 4.59,
+      "prob": 0.875,
+      "orig_start": 4.26,
+      "orig_end": 4.52
+    },
+    {
+      "word": "website",
+      "start": 4.59,
+      "end": 4.91,
+      "prob": 0.783,
+      "orig_start": 4.52,
+      "orig_end": 4.82
+    },
+    {
+      "word": "बना",
+      "start": 4.91,
+      "end": 5.21,
+      "prob": 0.873,
+      "orig_start": 4.82,
+      "orig_end": 5.12
+    },
+    {
+      "word": "के",
+      "start": 5.21,
+      "end": 5.27,
+      "prob": 0.627,
+      "orig_start": 5.12,
+      "orig_end": 5.2
+    },
+    {
+      "word": "दिखाँगा,",
+      "start": 5.27,
+      "end": 5.61,
+      "prob": 0.793,
+      "orig_start": 5.2,
+      "orig_end": 5.52
+    },
+    {
+      "word": "सिर्फ",
+      "start": 5.61,
+      "end": 5.93,
+      "prob": 0.424,
+      "orig_start": 5.56,
+      "orig_end": 5.84
+    },
+    {
+      "word": "दो",
+      "start": 5.93,
+      "end": 6.15,
+      "prob": 0.701,
+      "orig_start": 5.84,
+      "orig_end": 6.06
+    },
+    {
+      "word": "AI",
+      "start": 6.15,
+      "end": 6.37,
+      "prob": 0.938,
+      "orig_start": 6.06,
+      "orig_end": 6.28
+    },
+    {
+      "word": "tools",
+      "start": 6.37,
+      "end": 6.67,
+      "prob": 0.334,
+      "orig_start": 6.28,
+      "orig_end": 6.58
+    },
+    {
+      "word": "का",
+      "start": 6.67,
+      "end": 6.75,
+      "prob": 0.87,
+      "orig_start": 6.58,
+      "orig_end": 6.68
+    },
+    {
+      "word": "इसकरे.",
+      "start": 6.75,
+      "end": 7.15,
+      "prob": 0.585,
+      "orig_start": 6.68,
+      "orig_end": 7.14
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.66,
+      "end": 7.14,
+      "text": "आज न 60 सेकंज के अंदर Bulandshahr के एक viral closing store की पूरी website बना के दिखाँगा, सिर्फ दो AI tools का इसकरे."
+    }
+  ],
+  "energy_threshold_db": -50.5
+}

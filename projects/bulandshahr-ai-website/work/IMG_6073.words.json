@@ -1,0 +1,56 @@
+{
+  "source": "work/proxy/IMG_6073.mp4",
+  "language": "hi",
+  "duration": 2.24,
+  "words": [
+    {
+      "word": "और",
+      "start": 0.0,
+      "end": 0.36,
+      "prob": 0.612
+    },
+    {
+      "word": "यह",
+      "start": 0.36,
+      "end": 0.58,
+      "prob": 0.414
+    },
+    {
+      "word": "website",
+      "start": 0.58,
+      "end": 0.9,
+      "prob": 0.077
+    },
+    {
+      "word": "अभी",
+      "start": 0.9,
+      "end": 1.18,
+      "prob": 0.763
+    },
+    {
+      "word": "बूट",
+      "start": 1.18,
+      "end": 1.58,
+      "prob": 0.514
+    },
+    {
+      "word": "दो",
+      "start": 1.58,
+      "end": 1.76,
+      "prob": 0.546
+    },
+    {
+      "word": "गए।",
+      "start": 1.76,
+      "end": 2.0,
+      "prob": 0.517
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "और यह website अभी बूट दो गए।"
+    }
+  ]
+}

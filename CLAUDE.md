@@ -33,6 +33,10 @@ projects/<slug>/   ONE PERSISTENT FOLDER PER VIDEO: input/ assets/ refs/ sfx/ mu
 | `commit_project.sh` | stage + commit (+ `--push`) with guards: 25 MB limit, no raw media in `input/`, secret scan |
 | `version.py` | `save` / `list` / `restore` project snapshots |
 | `selftest.sh` | end-to-end regression on the synthetic sample project |
+| `fetch_icloud_album.py` | download the videos of a PUBLIC iCloud shared-album link into `input/` (never overwrites), ffprobe each |
+| `make_proxies.sh` | SDR BT.709 30 fps editing proxies; **tone-maps HDR (iPhone HLG/Dolby Vision)**. Always edit from proxies, never from HDR originals |
+| `refine_words.py` / `assemble_timeline.py` | multi-take A-roll: align captions to real voiced chunks, apply reviewed Hinglish (`work/hinglish.json`), cut dead air, write `master.mp4` + `master.words.json` + `captions_review.md` |
+| `build_reel.py` | layered Reels builder (`"builder": "reel"` in edit.json): captions BEHIND (cut-out) and IN FRONT of the speaker, B-roll cutaways with step chips, zooms, flashes, SFX |
 
 ## Rules
 
@@ -44,7 +48,17 @@ projects/<slug>/   ONE PERSISTENT FOLDER PER VIDEO: input/ assets/ refs/ sfx/ mu
 - Don't commit raw video, secrets or files over 25 MB. Final exports ≤ 25 MB are tracked.
 - Silent output unless the user supplies music/voice: no voiceover or music is invented (SFX are synthetic and optional).
 
+## Hinglish workflow (Hindi speech -> Roman captions)
+
+Whisper `--language hi --model medium --clean --prompt "<names>"` writes Devanagari. Convert to Roman Hinglish by hand in
+`work/hinglish.json` (one reviewed string per Whisper word index, `drop` for stutters, `back` for words behind the speaker), then
+`assemble_timeline.py`. Show the owner `work/captions_review.md` (heard vs shown, low-confidence words) and flag anything uncertain.
+Never invent names: use only names visible on screen in the footage or spoken by the host; otherwise say what is missing.
+
 ## Known limits (be upfront with the user)
+
+- iPhone footage is HDR: edit from `make_proxies.sh` SDR proxies. Rendering HDR-tagged sources makes HyperFrames use a very slow `rgb48le` path (30+ min for 45 s) and looks washed out when not tone-mapped.
+- The speaker cut-out (`npx hyperframes remove-background`, u2net on CPU) costs ~0.45 s/frame (about 10 min for 45 s). Redo it whenever the master video changes (colors must match the footage).
 
 - Whisper's model downloads from huggingface.co on first use; blocked in the cloud sandbox. Run `transcribe.py` where it is reachable, or pass `--model <local folder>`, then commit `work/*.words.json`.
 - `analyze_video.py` measures (light, motion, audio, cuts); judging faces, hands and empty space is done by *you* viewing the contact sheet. There is no face tracking: wide→vertical reframing uses `source.focus_x`.

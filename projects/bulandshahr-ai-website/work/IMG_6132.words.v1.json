@@ -1,0 +1,157 @@
+{
+  "source": "projects/bulandshahr-ai-website/work/proxy/IMG_6132.mp4",
+  "language": "hi",
+  "duration": 13.184,
+  "words": [
+    {
+      "word": "सुपिप",
+      "start": 0.0,
+      "end": 1.3,
+      "prob": 0.21
+    },
+    {
+      "word": "सन्चीखनेन",
+      "start": 1.3,
+      "end": 2.16,
+      "prob": 0.149
+    },
+    {
+      "word": "भacting",
+      "start": 2.16,
+      "end": 2.16,
+      "prob": 0.03
+    },
+    {
+      "word": "करकि",
+      "start": 2.16,
+      "end": 2.16,
+      "prob": 0.124
+    },
+    {
+      "word": "média",
+      "start": 2.16,
+      "end": 2.16,
+      "prob": 0.0
+    },
+    {
+      "word": "यआपको",
+      "start": 2.16,
+      "end": 4.04,
+      "prob": 0.302
+    },
+    {
+      "word": "पासणा",
+      "start": 4.04,
+      "end": 4.56,
+      "prob": 0.368
+    },
+    {
+      "word": "घा",
+      "start": 4.56,
+      "end": 4.74,
+      "prob": 0.399
+    },
+    {
+      "word": "अस्क्राथिक्षते",
+      "start": 4.74,
+      "end": 6.52,
+      "prob": 0.162
+    },
+    {
+      "word": "जो.",
+      "start": 6.52,
+      "end": 7.34,
+      "prob": 0.18
+    },
+    {
+      "word": "यापका",
+      "start": 9.02,
+      "end": 9.8,
+      "prob": 0.271
+    },
+    {
+      "word": "अपने",
+      "start": 9.8,
+      "end": 9.8,
+      "prob": 0.511
+    },
+    {
+      "word": "वि",
+      "start": 9.8,
+      "end": 9.8,
+      "prob": 0.398
+    },
+    {
+      "word": "तिरी",
+      "start": 9.8,
+      "end": 9.8,
+      "prob": 0.06
+    },
+    {
+      "word": "있지만",
+      "start": 9.8,
+      "end": 9.8,
+      "prob": 0.0
+    },
+    {
+      "word": "आग",
+      "start": 9.8,
+      "end": 9.8,
+      "prob": 0.36
+    },
+    {
+      "word": "थी,",
+      "start": 9.8,
+      "end": 9.8,
+      "prob": 0.052
+    },
+    {
+      "word": "ये",
+      "start": 9.8,
+      "end": 9.8,
+      "prob": 0.322
+    },
+    {
+      "word": "कहा",
+      "start": 9.8,
+      "end": 9.96,
+      "prob": 0.224
+    },
+    {
+      "word": "न",
+      "start": 9.96,
+      "end": 10.3,
+      "prob": 0.191
+    },
+    {
+      "word": "राहीरotehal",
+      "start": 10.3,
+      "end": 10.66,
+      "prob": 0.051
+    },
+    {
+      "word": "जीवा",
+      "start": 10.66,
+      "end": 12.74,
+      "prob": 0.239
+    },
+    {
+      "word": "Several",
+      "start": 12.74,
+      "end": 12.74,
+      "prob": 0.0
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.34,
+      "text": "सुपिप सन्चीखनेन भacting करकि média यआपको पासणा घा अस्क्राथिक्षते जो."
+    },
+    {
+      "start": 9.02,
+      "end": 12.74,
+      "text": "यापका अपने वि तिरी 있지만 आग थी, ये कहा न राहीरotehal जीवा Several"
+    }
+  ]
+}

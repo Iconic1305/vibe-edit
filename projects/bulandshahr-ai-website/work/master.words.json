@@ -1,0 +1,1555 @@
+{
+  "words": [
+    {
+      "word": "Aaj",
+      "start": 0.06,
+      "end": 0.26,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "आज",
+      "prob": 0.79,
+      "realigned": false
+    },
+    {
+      "word": "na",
+      "start": 0.26,
+      "end": 0.38,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "न",
+      "prob": 0.74,
+      "realigned": false
+    },
+    {
+      "word": "60",
+      "start": 0.38,
+      "end": 0.74,
+      "layer": "back",
+      "clip": "IMG_6058",
+      "orig": "60",
+      "prob": 0.08,
+      "realigned": false
+    },
+    {
+      "word": "second",
+      "start": 0.74,
+      "end": 1.08,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "सेकंज",
+      "prob": 0.647,
+      "realigned": false
+    },
+    {
+      "word": "ke",
+      "start": 1.08,
+      "end": 1.2,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "के",
+      "prob": 0.845,
+      "realigned": false
+    },
+    {
+      "word": "andar",
+      "start": 1.2,
+      "end": 1.42,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "अंदर",
+      "prob": 0.809,
+      "realigned": false
+    },
+    {
+      "word": "Bulandshahr",
+      "start": 1.42,
+      "end": 1.9,
+      "layer": "back",
+      "clip": "IMG_6058",
+      "orig": "Bulandshahr",
+      "prob": 0.175,
+      "realigned": false
+    },
+    {
+      "word": "ke",
+      "start": 1.9,
+      "end": 2.06,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "के",
+      "prob": 0.913,
+      "realigned": false
+    },
+    {
+      "word": "ek",
+      "start": 2.06,
+      "end": 2.26,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "एक",
+      "prob": 0.808,
+      "realigned": false
+    },
+    {
+      "word": "viral",
+      "start": 2.26,
+      "end": 2.54,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "viral",
+      "prob": 0.47,
+      "realigned": false
+    },
+    {
+      "word": "clothing",
+      "start": 2.54,
+      "end": 2.88,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "closing",
+      "prob": 0.925,
+      "realigned": false
+    },
+    {
+      "word": "store",
+      "start": 2.88,
+      "end": 3.16,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "store",
+      "prob": 0.95,
+      "realigned": false
+    },
+    {
+      "word": "ki",
+      "start": 3.16,
+      "end": 3.32,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "की",
+      "prob": 0.745,
+      "realigned": false
+    },
+    {
+      "word": "poori",
+      "start": 3.32,
+      "end": 3.58,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "पूरी",
+      "prob": 0.875,
+      "realigned": false
+    },
+    {
+      "word": "website",
+      "start": 3.58,
+      "end": 3.88,
+      "layer": "back",
+      "clip": "IMG_6058",
+      "orig": "website",
+      "prob": 0.783,
+      "realigned": false
+    },
+    {
+      "word": "bana",
+      "start": 3.88,
+      "end": 4.18,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "बना",
+      "prob": 0.873,
+      "realigned": false
+    },
+    {
+      "word": "ke",
+      "start": 4.18,
+      "end": 4.26,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "के",
+      "prob": 0.627,
+      "realigned": false
+    },
+    {
+      "word": "dikhaunga,",
+      "start": 4.26,
+      "end": 4.58,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "दिखाँगा,",
+      "prob": 0.793,
+      "realigned": false
+    },
+    {
+      "word": "sirf",
+      "start": 4.62,
+      "end": 4.9,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "सिर्फ",
+      "prob": 0.424,
+      "realigned": false
+    },
+    {
+      "word": "do",
+      "start": 4.9,
+      "end": 5.12,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "दो",
+      "prob": 0.701,
+      "realigned": false
+    },
+    {
+      "word": "AI",
+      "start": 5.12,
+      "end": 5.34,
+      "layer": "back",
+      "clip": "IMG_6058",
+      "orig": "AI",
+      "prob": 0.938,
+      "realigned": false
+    },
+    {
+      "word": "tools",
+      "start": 5.34,
+      "end": 5.64,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "tools",
+      "prob": 0.334,
+      "realigned": false
+    },
+    {
+      "word": "ka",
+      "start": 5.64,
+      "end": 5.74,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "का",
+      "prob": 0.87,
+      "realigned": false
+    },
+    {
+      "word": "use karke.",
+      "start": 5.74,
+      "end": 6.2,
+      "layer": "front",
+      "clip": "IMG_6058",
+      "orig": "इसकरे.",
+      "prob": 0.585,
+      "realigned": false
+    },
+    {
+      "word": "Bulandshahr",
+      "start": 6.54,
+      "end": 7.04,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "Bulandshahr",
+      "prob": 0.221,
+      "realigned": false
+    },
+    {
+      "word": "ke",
+      "start": 7.04,
+      "end": 7.14,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "के",
+      "prob": 0.632,
+      "realigned": false
+    },
+    {
+      "word": "andar",
+      "start": 7.14,
+      "end": 7.28,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "अंदर",
+      "prob": 0.779,
+      "realigned": false
+    },
+    {
+      "word": "D'",
+      "start": 7.28,
+      "end": 7.52,
+      "layer": "back",
+      "clip": "IMG_6060",
+      "orig": "D'",
+      "prob": 0.201,
+      "realigned": false
+    },
+    {
+      "word": "Closet",
+      "start": 7.64,
+      "end": 7.82,
+      "layer": "back",
+      "clip": "IMG_6060",
+      "orig": "Closet",
+      "prob": 0.653,
+      "realigned": false
+    },
+    {
+      "word": "sabse",
+      "start": 7.82,
+      "end": 8.16,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "सबसे",
+      "prob": 0.839,
+      "realigned": false
+    },
+    {
+      "word": "bada",
+      "start": 8.16,
+      "end": 8.48,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "रदा",
+      "prob": 0.711,
+      "realigned": false
+    },
+    {
+      "word": "viral",
+      "start": 8.48,
+      "end": 8.76,
+      "layer": "back",
+      "clip": "IMG_6060",
+      "orig": "वारेल",
+      "prob": 0.625,
+      "realigned": false
+    },
+    {
+      "word": "hai,",
+      "start": 8.76,
+      "end": 8.96,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "हैं,",
+      "prob": 0.717,
+      "realigned": false
+    },
+    {
+      "word": "aur",
+      "start": 9.04,
+      "end": 9.22,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "और",
+      "prob": 0.919,
+      "realigned": false
+    },
+    {
+      "word": "usko",
+      "start": 9.22,
+      "end": 9.5,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "उसको",
+      "prob": 0.911,
+      "realigned": false
+    },
+    {
+      "word": "host",
+      "start": 9.5,
+      "end": 9.96,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "पूरी",
+      "prob": 0.265,
+      "realigned": false
+    },
+    {
+      "word": "karti",
+      "start": 9.96,
+      "end": 10.2,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "website",
+      "prob": 0.0,
+      "realigned": false
+    },
+    {
+      "word": "hain,",
+      "start": 10.2,
+      "end": 10.46,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "के",
+      "prob": 0.657,
+      "realigned": false
+    },
+    {
+      "word": "uski founder",
+      "start": 10.46,
+      "end": 10.82,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "founder",
+      "prob": 0.016,
+      "realigned": false
+    },
+    {
+      "word": "hain",
+      "start": 10.82,
+      "end": 10.94,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "हैं,",
+      "prob": 0.87,
+      "realigned": false
+    },
+    {
+      "word": "Priyanshi",
+      "start": 11.06,
+      "end": 11.412,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "Priyanshi",
+      "prob": 0.76,
+      "realigned": true
+    },
+    {
+      "word": "Di.",
+      "start": 11.412,
+      "end": 11.53,
+      "layer": "front",
+      "clip": "IMG_6060",
+      "orig": "Di.",
+      "prob": 0.002,
+      "realigned": true
+    },
+    {
+      "word": "Poora",
+      "start": 11.65,
+      "end": 11.92,
+      "layer": "front",
+      "clip": "IMG_6061",
+      "orig": "पूरा",
+      "prob": 0.823,
+      "realigned": false
+    },
+    {
+      "word": "tutorial",
+      "start": 11.92,
+      "end": 12.3,
+      "layer": "back",
+      "clip": "IMG_6061",
+      "orig": "tutorial",
+      "prob": 0.036,
+      "realigned": false
+    },
+    {
+      "word": "aage",
+      "start": 12.3,
+      "end": 12.68,
+      "layer": "front",
+      "clip": "IMG_6061",
+      "orig": "आगे",
+      "prob": 0.872,
+      "realigned": false
+    },
+    {
+      "word": "hai",
+      "start": 12.68,
+      "end": 12.84,
+      "layer": "front",
+      "clip": "IMG_6061",
+      "orig": "हैं",
+      "prob": 0.661,
+      "realigned": false
+    },
+    {
+      "word": "video",
+      "start": 12.84,
+      "end": 13.16,
+      "layer": "front",
+      "clip": "IMG_6061",
+      "orig": "वीडियों",
+      "prob": 0.781,
+      "realigned": false
+    },
+    {
+      "word": "mein,",
+      "start": 13.16,
+      "end": 13.48,
+      "layer": "front",
+      "clip": "IMG_6061",
+      "orig": "में,",
+      "prob": 0.786,
+      "realigned": false
+    },
+    {
+      "word": "toh",
+      "start": 13.48,
+      "end": 13.58,
+      "layer": "front",
+      "clip": "IMG_6061",
+      "orig": "तो",
+      "prob": 0.872,
+      "realigned": false
+    },
+    {
+      "word": "ant tak",
+      "start": 13.58,
+      "end": 13.75,
+      "layer": "front",
+      "clip": "IMG_6061",
+      "orig": "अंतक",
+      "prob": 0.631,
+      "realigned": false
+    },
+    {
+      "word": "dekhte",
+      "start": 13.87,
+      "end": 14.866,
+      "layer": "front",
+      "clip": "IMG_6061",
+      "orig": "देखना",
+      "prob": 0.888,
+      "realigned": true
+    },
+    {
+      "word": "rahna",
+      "start": 14.866,
+      "end": 15.696,
+      "layer": "front",
+      "clip": "IMG_6061",
+      "orig": "रहा",
+      "prob": 0.659,
+      "realigned": true
+    },
+    {
+      "word": "hai.",
+      "start": 15.696,
+      "end": 16.36,
+      "layer": "front",
+      "clip": "IMG_6061",
+      "orig": "हैं।",
+      "prob": 0.639,
+      "realigned": true
+    },
+    {
+      "word": "Toh",
+      "start": 16.48,
+      "end": 16.59,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "तो",
+      "prob": 0.739,
+      "realigned": false
+    },
+    {
+      "word": "sabse",
+      "start": 16.59,
+      "end": 16.85,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "सबसे",
+      "prob": 0.866,
+      "realigned": false
+    },
+    {
+      "word": "pehle",
+      "start": 16.85,
+      "end": 17.07,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "पहले",
+      "prob": 0.851,
+      "realigned": false
+    },
+    {
+      "word": "ChatGPT",
+      "start": 17.07,
+      "end": 17.63,
+      "layer": "back",
+      "clip": "IMG_6067",
+      "orig": "ChatGPT",
+      "prob": 0.455,
+      "realigned": false
+    },
+    {
+      "word": "par",
+      "start": 17.63,
+      "end": 17.77,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "पर",
+      "prob": 0.927,
+      "realigned": false
+    },
+    {
+      "word": "jaenge",
+      "start": 17.77,
+      "end": 18.11,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "जाएंगे",
+      "prob": 0.89,
+      "realigned": false
+    },
+    {
+      "word": "aur",
+      "start": 18.23,
+      "end": 18.44,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "और",
+      "prob": 0.907,
+      "realigned": false
+    },
+    {
+      "word": "ChatGPT",
+      "start": 18.44,
+      "end": 19.08,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "ChatGPT",
+      "prob": 0.838,
+      "realigned": false
+    },
+    {
+      "word": "ko",
+      "start": 19.08,
+      "end": 19.24,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "को",
+      "prob": 0.945,
+      "realigned": false
+    },
+    {
+      "word": "hamare",
+      "start": 19.24,
+      "end": 19.56,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "हमारे",
+      "prob": 0.91,
+      "realigned": false
+    },
+    {
+      "word": "business",
+      "start": 19.56,
+      "end": 19.86,
+      "layer": "back",
+      "clip": "IMG_6067",
+      "orig": "business",
+      "prob": 0.25,
+      "realigned": false
+    },
+    {
+      "word": "ki",
+      "start": 19.86,
+      "end": 20.1,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "की",
+      "prob": 0.794,
+      "realigned": false
+    },
+    {
+      "word": "jo bhi",
+      "start": 20.1,
+      "end": 20.38,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "जोभी",
+      "prob": 0.857,
+      "realigned": false
+    },
+    {
+      "word": "details",
+      "start": 20.38,
+      "end": 20.68,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "details",
+      "prob": 0.498,
+      "realigned": false
+    },
+    {
+      "word": "hamare",
+      "start": 20.68,
+      "end": 21.02,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "हमारे",
+      "prob": 0.876,
+      "realigned": false
+    },
+    {
+      "word": "paas",
+      "start": 21.02,
+      "end": 21.18,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "पास",
+      "prob": 0.953,
+      "realigned": false
+    },
+    {
+      "word": "available",
+      "start": 21.18,
+      "end": 21.62,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "अविलेबिल",
+      "prob": 0.746,
+      "realigned": false
+    },
+    {
+      "word": "hain,",
+      "start": 21.62,
+      "end": 21.84,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "हैं,",
+      "prob": 0.869,
+      "realigned": false
+    },
+    {
+      "word": "with",
+      "start": 21.88,
+      "end": 22.1,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "विद",
+      "prob": 0.751,
+      "realigned": false
+    },
+    {
+      "word": "logo,",
+      "start": 22.1,
+      "end": 22.34,
+      "layer": "back",
+      "clip": "IMG_6067",
+      "orig": "लोगो,",
+      "prob": 0.947,
+      "realigned": false
+    },
+    {
+      "word": "ChatGPT",
+      "start": 22.46,
+      "end": 23.0,
+      "layer": "back",
+      "clip": "IMG_6067",
+      "orig": "ChatGPT",
+      "prob": 0.937,
+      "realigned": false
+    },
+    {
+      "word": "ko",
+      "start": 23.0,
+      "end": 23.1,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "को",
+      "prob": 0.886,
+      "realigned": false
+    },
+    {
+      "word": "de",
+      "start": 23.1,
+      "end": 23.26,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "दे",
+      "prob": 0.945,
+      "realigned": false
+    },
+    {
+      "word": "denge.",
+      "start": 23.26,
+      "end": 23.41,
+      "layer": "front",
+      "clip": "IMG_6067",
+      "orig": "देंगे.",
+      "prob": 0.883,
+      "realigned": false
+    },
+    {
+      "word": "So",
+      "start": 23.53,
+      "end": 23.64,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "So",
+      "prob": 0.08,
+      "realigned": false
+    },
+    {
+      "word": "abhi",
+      "start": 23.64,
+      "end": 23.8,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "भी",
+      "prob": 0.662,
+      "realigned": false
+    },
+    {
+      "word": "jo",
+      "start": 23.8,
+      "end": 23.92,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "जो",
+      "prob": 0.805,
+      "realigned": false
+    },
+    {
+      "word": "ChatGPT",
+      "start": 23.92,
+      "end": 24.44,
+      "layer": "back",
+      "clip": "IMG_6119",
+      "orig": "ChatGPT",
+      "prob": 0.336,
+      "realigned": false
+    },
+    {
+      "word": "hamko",
+      "start": 24.44,
+      "end": 24.66,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "हमको",
+      "prob": 0.515,
+      "realigned": false
+    },
+    {
+      "word": "prompt",
+      "start": 24.66,
+      "end": 24.92,
+      "layer": "back",
+      "clip": "IMG_6119",
+      "orig": "prompt",
+      "prob": 0.313,
+      "realigned": false
+    },
+    {
+      "word": "mila",
+      "start": 24.92,
+      "end": 25.16,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "मिला",
+      "prob": 0.751,
+      "realigned": false
+    },
+    {
+      "word": "hai,",
+      "start": 25.16,
+      "end": 25.24,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "हैं,",
+      "prob": 0.429,
+      "realigned": false
+    },
+    {
+      "word": "isko",
+      "start": 25.28,
+      "end": 25.44,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "इसको",
+      "prob": 0.947,
+      "realigned": false
+    },
+    {
+      "word": "simply",
+      "start": 25.44,
+      "end": 25.88,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "simply",
+      "prob": 0.329,
+      "realigned": false
+    },
+    {
+      "word": "uthakar",
+      "start": 25.88,
+      "end": 26.32,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "उठाकर",
+      "prob": 0.843,
+      "realigned": false
+    },
+    {
+      "word": "hum",
+      "start": 26.32,
+      "end": 26.44,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "हम",
+      "prob": 0.879,
+      "realigned": false
+    },
+    {
+      "word": "Claude",
+      "start": 26.44,
+      "end": 26.7,
+      "layer": "back",
+      "clip": "IMG_6119",
+      "orig": "Claude",
+      "prob": 0.543,
+      "realigned": false
+    },
+    {
+      "word": "pe",
+      "start": 26.7,
+      "end": 26.84,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "पे",
+      "prob": 0.751,
+      "realigned": false
+    },
+    {
+      "word": "paste",
+      "start": 26.84,
+      "end": 27.16,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "paste",
+      "prob": 0.184,
+      "realigned": false
+    },
+    {
+      "word": "karenge,",
+      "start": 27.16,
+      "end": 27.64,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "करेंगे,",
+      "prob": 0.936,
+      "realigned": false
+    },
+    {
+      "word": "aur",
+      "start": 27.78,
+      "end": 27.88,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "और",
+      "prob": 0.79,
+      "realigned": false
+    },
+    {
+      "word": "Claude",
+      "start": 27.88,
+      "end": 28.22,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "Claude",
+      "prob": 0.935,
+      "realigned": false
+    },
+    {
+      "word": "se",
+      "start": 28.22,
+      "end": 28.42,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "से",
+      "prob": 0.955,
+      "realigned": false
+    },
+    {
+      "word": "jo bhi",
+      "start": 28.54,
+      "end": 28.867,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "जोभी",
+      "prob": 0.844,
+      "realigned": true
+    },
+    {
+      "word": "hum",
+      "start": 28.867,
+      "end": 29.031,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "हम",
+      "prob": 0.956,
+      "realigned": true
+    },
+    {
+      "word": "ko",
+      "start": 29.031,
+      "end": 29.14,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "का",
+      "prob": 0.488,
+      "realigned": true
+    },
+    {
+      "word": "output",
+      "start": 29.14,
+      "end": 29.467,
+      "layer": "back",
+      "clip": "IMG_6119",
+      "orig": "output",
+      "prob": 0.227,
+      "realigned": true
+    },
+    {
+      "word": "milta",
+      "start": 29.467,
+      "end": 29.74,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "मिलता",
+      "prob": 0.903,
+      "realigned": true
+    },
+    {
+      "word": "hai,",
+      "start": 29.74,
+      "end": 29.958,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "हैं,",
+      "prob": 0.797,
+      "realigned": true
+    },
+    {
+      "word": "vo",
+      "start": 29.958,
+      "end": 30.067,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "वो",
+      "prob": 0.87,
+      "realigned": true
+    },
+    {
+      "word": "dekhne",
+      "start": 30.067,
+      "end": 30.395,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "देखने",
+      "prob": 0.943,
+      "realigned": true
+    },
+    {
+      "word": "layak",
+      "start": 30.395,
+      "end": 30.667,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "लायाक",
+      "prob": 0.759,
+      "realigned": true
+    },
+    {
+      "word": "hoga.",
+      "start": 30.667,
+      "end": 30.94,
+      "layer": "front",
+      "clip": "IMG_6119",
+      "orig": "होगा.",
+      "prob": 0.874,
+      "realigned": true
+    },
+    {
+      "word": "Here",
+      "start": 31.06,
+      "end": 31.24,
+      "layer": "front",
+      "clip": "IMG_6134",
+      "orig": "Here",
+      "prob": 0.034,
+      "realigned": false
+    },
+    {
+      "word": "is",
+      "start": 31.24,
+      "end": 31.44,
+      "layer": "front",
+      "clip": "IMG_6134",
+      "orig": "is",
+      "prob": 0.918,
+      "realigned": false
+    },
+    {
+      "word": "our",
+      "start": 31.44,
+      "end": 31.64,
+      "layer": "front",
+      "clip": "IMG_6134",
+      "orig": "our",
+      "prob": 0.922,
+      "realigned": false
+    },
+    {
+      "word": "output,",
+      "start": 31.64,
+      "end": 31.94,
+      "layer": "back",
+      "clip": "IMG_6134",
+      "orig": "output,",
+      "prob": 0.966,
+      "realigned": false
+    },
+    {
+      "word": "have",
+      "start": 32.06,
+      "end": 32.155,
+      "layer": "front",
+      "clip": "IMG_6134",
+      "orig": "have",
+      "prob": 0.905,
+      "realigned": true
+    },
+    {
+      "word": "a",
+      "start": 32.155,
+      "end": 32.215,
+      "layer": "front",
+      "clip": "IMG_6134",
+      "orig": "a",
+      "prob": 0.994,
+      "realigned": true
+    },
+    {
+      "word": "look.",
+      "start": 32.202,
+      "end": 32.32,
+      "layer": "front",
+      "clip": "IMG_6134",
+      "orig": "look.",
+      "prob": 0.998,
+      "realigned": true
+    },
+    {
+      "word": "Claude",
+      "start": 32.41,
+      "end": 32.776,
+      "layer": "back",
+      "clip": "IMG_6132",
+      "orig": "Claude",
+      "prob": 0.411,
+      "realigned": true
+    },
+    {
+      "word": "Design",
+      "start": 32.776,
+      "end": 33.142,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "Design",
+      "prob": 0.0,
+      "realigned": true
+    },
+    {
+      "word": "ko",
+      "start": 33.142,
+      "end": 33.264,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "को",
+      "prob": 0.464,
+      "realigned": true
+    },
+    {
+      "word": "jo bhi",
+      "start": 33.264,
+      "end": 33.631,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "जोभी",
+      "prob": 0.815,
+      "realigned": true
+    },
+    {
+      "word": "output",
+      "start": 33.631,
+      "end": 33.997,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "output",
+      "prob": 0.237,
+      "realigned": true
+    },
+    {
+      "word": "dekhne",
+      "start": 33.997,
+      "end": 34.363,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "देखने",
+      "prob": 0.943,
+      "realigned": true
+    },
+    {
+      "word": "ko",
+      "start": 34.363,
+      "end": 34.485,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "को",
+      "prob": 0.94,
+      "realigned": true
+    },
+    {
+      "word": "milega,",
+      "start": 34.485,
+      "end": 34.912,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "मिलेगा,",
+      "prob": 0.837,
+      "realigned": true
+    },
+    {
+      "word": "vo",
+      "start": 34.912,
+      "end": 35.034,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "वो",
+      "prob": 0.919,
+      "realigned": true
+    },
+    {
+      "word": "amazing",
+      "start": 35.034,
+      "end": 35.461,
+      "layer": "back",
+      "clip": "IMG_6132",
+      "orig": "amazing",
+      "prob": 0.561,
+      "realigned": true
+    },
+    {
+      "word": "hoga,",
+      "start": 35.461,
+      "end": 35.766,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "होगा,",
+      "prob": 0.905,
+      "realigned": true
+    },
+    {
+      "word": "agar",
+      "start": 35.766,
+      "end": 36.011,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "अगर",
+      "prob": 0.876,
+      "realigned": true
+    },
+    {
+      "word": "aapko",
+      "start": 36.011,
+      "end": 36.316,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "आपको",
+      "prob": 0.917,
+      "realigned": true
+    },
+    {
+      "word": "pasand",
+      "start": 36.316,
+      "end": 36.682,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "पसंद",
+      "prob": 0.857,
+      "realigned": true
+    },
+    {
+      "word": "aata",
+      "start": 36.682,
+      "end": 36.926,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "आता",
+      "prob": 0.891,
+      "realigned": true
+    },
+    {
+      "word": "hai,",
+      "start": 36.926,
+      "end": 37.17,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "है,",
+      "prob": 0.946,
+      "realigned": true
+    },
+    {
+      "word": "toh",
+      "start": 37.29,
+      "end": 37.493,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "तो",
+      "prob": 0.876,
+      "realigned": true
+    },
+    {
+      "word": "like",
+      "start": 37.493,
+      "end": 37.764,
+      "layer": "back",
+      "clip": "IMG_6132",
+      "orig": "like",
+      "prob": 0.518,
+      "realigned": true
+    },
+    {
+      "word": "zaroor",
+      "start": 37.764,
+      "end": 38.17,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "जरूर",
+      "prob": 0.852,
+      "realigned": true
+    },
+    {
+      "word": "karna",
+      "start": 38.17,
+      "end": 38.508,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "करना",
+      "prob": 0.934,
+      "realigned": true
+    },
+    {
+      "word": "video",
+      "start": 38.508,
+      "end": 38.847,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "वीडियो",
+      "prob": 0.793,
+      "realigned": true
+    },
+    {
+      "word": "ko,",
+      "start": 38.847,
+      "end": 39.05,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "को,",
+      "prob": 0.834,
+      "realigned": true
+    },
+    {
+      "word": "aur",
+      "start": 39.17,
+      "end": 40.49,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "और",
+      "prob": 0.803,
+      "realigned": true
+    },
+    {
+      "word": "account",
+      "start": 40.76,
+      "end": 41.08,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "account",
+      "prob": 0.555,
+      "realigned": false
+    },
+    {
+      "word": "ko",
+      "start": 41.08,
+      "end": 41.24,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "को",
+      "prob": 0.955,
+      "realigned": false
+    },
+    {
+      "word": "follow",
+      "start": 41.24,
+      "end": 41.56,
+      "layer": "back",
+      "clip": "IMG_6132",
+      "orig": "follow",
+      "prob": 0.838,
+      "realigned": false
+    },
+    {
+      "word": "bhi",
+      "start": 41.56,
+      "end": 41.7,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "भी",
+      "prob": 0.753,
+      "realigned": false
+    },
+    {
+      "word": "kar",
+      "start": 41.7,
+      "end": 41.9,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "कर",
+      "prob": 0.857,
+      "realigned": false
+    },
+    {
+      "word": "lena.",
+      "start": 41.9,
+      "end": 41.96,
+      "layer": "front",
+      "clip": "IMG_6132",
+      "orig": "लेना.",
+      "prob": 0.812,
+      "realigned": false
+    },
+    {
+      "word": "AI",
+      "start": 42.08,
+      "end": 42.173,
+      "layer": "back",
+      "clip": "IMG_6072",
+      "orig": "AI",
+      "prob": 0.322,
+      "realigned": true
+    },
+    {
+      "word": "se",
+      "start": 42.173,
+      "end": 42.266,
+      "layer": "front",
+      "clip": "IMG_6072",
+      "orig": "से",
+      "prob": 0.943,
+      "realigned": true
+    },
+    {
+      "word": "related",
+      "start": 42.266,
+      "end": 42.59,
+      "layer": "front",
+      "clip": "IMG_6072",
+      "orig": "related",
+      "prob": 0.225,
+      "realigned": true
+    },
+    {
+      "word": "aur",
+      "start": 42.59,
+      "end": 42.73,
+      "layer": "front",
+      "clip": "IMG_6072",
+      "orig": "और",
+      "prob": 0.886,
+      "realigned": true
+    },
+    {
+      "word": "bhi",
+      "start": 42.73,
+      "end": 42.869,
+      "layer": "front",
+      "clip": "IMG_6072",
+      "orig": "भी",
+      "prob": 0.851,
+      "realigned": true
+    },
+    {
+      "word": "content",
+      "start": 42.869,
+      "end": 43.193,
+      "layer": "front",
+      "clip": "IMG_6072",
+      "orig": "content",
+      "prob": 0.979,
+      "realigned": true
+    },
+    {
+      "word": "dekhna",
+      "start": 43.193,
+      "end": 43.472,
+      "layer": "front",
+      "clip": "IMG_6072",
+      "orig": "देखना",
+      "prob": 0.925,
+      "realigned": true
+    },
+    {
+      "word": "hai,",
+      "start": 43.472,
+      "end": 43.657,
+      "layer": "front",
+      "clip": "IMG_6072",
+      "orig": "हैं,",
+      "prob": 0.676,
+      "realigned": true
+    },
+    {
+      "word": "toh",
+      "start": 43.657,
+      "end": 43.797,
+      "layer": "front",
+      "clip": "IMG_6072",
+      "orig": "तो",
+      "prob": 0.937,
+      "realigned": true
+    },
+    {
+      "word": "follow",
+      "start": 43.797,
+      "end": 44.075,
+      "layer": "back",
+      "clip": "IMG_6072",
+      "orig": "follow",
+      "prob": 0.782,
+      "realigned": true
+    },
+    {
+      "word": "zaroor",
+      "start": 44.075,
+      "end": 44.353,
+      "layer": "front",
+      "clip": "IMG_6072",
+      "orig": "ज़रूर",
+      "prob": 0.807,
+      "realigned": true
+    },
+    {
+      "word": "karke",
+      "start": 44.353,
+      "end": 44.585,
+      "layer": "front",
+      "clip": "IMG_6072",
+      "orig": "करके",
+      "prob": 0.806,
+      "realigned": true
+    },
+    {
+      "word": "rakhna.",
+      "start": 44.585,
+      "end": 44.91,
+      "layer": "front",
+      "clip": "IMG_6072",
+      "orig": "रखनू.",
+      "prob": 0.673,
+      "realigned": true
+    }
+  ],
+  "duration": 44.97
+}

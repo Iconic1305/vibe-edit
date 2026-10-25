@@ -1,0 +1,91 @@
+{
+  "source": "projects/bulandshahr-ai-website/work/proxy/IMG_6105.mp4",
+  "language": "hi",
+  "duration": 11.861,
+  "words": [
+    {
+      "word": "नाम",
+      "start": 0.0,
+      "end": 0.98,
+      "prob": 0.221
+    },
+    {
+      "word": "हारत",
+      "start": 0.98,
+      "end": 1.08,
+      "prob": 0.077
+    },
+    {
+      "word": "इंच्रिणाराता",
+      "start": 1.08,
+      "end": 1.6,
+      "prob": 0.181
+    },
+    {
+      "word": "मे।",
+      "start": 1.6,
+      "end": 2.12,
+      "prob": 0.42
+    },
+    {
+      "word": "आप",
+      "start": 2.12,
+      "end": 2.4,
+      "prob": 0.636
+    },
+    {
+      "word": "प",
+      "start": 2.4,
+      "end": 2.4,
+      "prob": 0.355
+    },
+    {
+      "word": "就是",
+      "start": 2.4,
+      "end": 2.4,
+      "prob": 0.0
+    },
+    {
+      "word": "कर",
+      "start": 2.4,
+      "end": 3.76,
+      "prob": 0.107
+    },
+    {
+      "word": "तो",
+      "start": 3.76,
+      "end": 4.26,
+      "prob": 0.128
+    },
+    {
+      "word": "सह",
+      "start": 4.26,
+      "end": 4.26,
+      "prob": 0.034
+    },
+    {
+      "word": "पेरा",
+      "start": 4.26,
+      "end": 7.76,
+      "prob": 0.119
+    },
+    {
+      "word": "पाल्यी",
+      "start": 7.76,
+      "end": 11.2,
+      "prob": 0.115
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.12,
+      "text": "नाम हारत इंच्रिणाराता मे।"
+    },
+    {
+      "start": 2.12,
+      "end": 11.2,
+      "text": "आप प 就是 कर तो सह पेरा पाल्यी"
+    }
+  ]
+}

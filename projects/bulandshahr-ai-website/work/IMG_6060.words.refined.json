@@ -1,0 +1,159 @@
+{
+  "source": "work/proxy/IMG_6060.mp4",
+  "language": "hi",
+  "duration": 8.768,
+  "words": [
+    {
+      "word": "Bulandshahr",
+      "start": 2.66,
+      "end": 3.33,
+      "prob": 0.221,
+      "orig_start": 2.74,
+      "orig_end": 3.24
+    },
+    {
+      "word": "के",
+      "start": 3.33,
+      "end": 3.43,
+      "prob": 0.632,
+      "orig_start": 3.24,
+      "orig_end": 3.34
+    },
+    {
+      "word": "अंदर",
+      "start": 3.43,
+      "end": 3.57,
+      "prob": 0.779,
+      "orig_start": 3.34,
+      "orig_end": 3.48
+    },
+    {
+      "word": "D'",
+      "start": 3.57,
+      "end": 3.81,
+      "prob": 0.201,
+      "orig_start": 3.48,
+      "orig_end": 3.72
+    },
+    {
+      "word": "Closet",
+      "start": 3.81,
+      "end": 4.1,
+      "prob": 0.653,
+      "orig_start": 3.84,
+      "orig_end": 4.02
+    },
+    {
+      "word": "सबसे",
+      "start": 4.1,
+      "end": 4.45,
+      "prob": 0.839,
+      "orig_start": 4.02,
+      "orig_end": 4.36
+    },
+    {
+      "word": "रदा",
+      "start": 4.45,
+      "end": 4.76,
+      "prob": 0.711,
+      "orig_start": 4.36,
+      "orig_end": 4.68
+    },
+    {
+      "word": "वारेल",
+      "start": 4.76,
+      "end": 5.05,
+      "prob": 0.625,
+      "orig_start": 4.68,
+      "orig_end": 4.96
+    },
+    {
+      "word": "हैं,",
+      "start": 5.05,
+      "end": 5.25,
+      "prob": 0.717,
+      "orig_start": 4.96,
+      "orig_end": 5.16
+    },
+    {
+      "word": "और",
+      "start": 5.25,
+      "end": 5.51,
+      "prob": 0.919,
+      "orig_start": 5.24,
+      "orig_end": 5.42
+    },
+    {
+      "word": "उसको",
+      "start": 5.51,
+      "end": 5.62,
+      "prob": 0.911,
+      "orig_start": 5.42,
+      "orig_end": 5.7
+    },
+    {
+      "word": "पूरी",
+      "start": 5.85,
+      "end": 6.25,
+      "prob": 0.265,
+      "orig_start": 5.7,
+      "orig_end": 6.16
+    },
+    {
+      "word": "website",
+      "start": 6.25,
+      "end": 6.49,
+      "prob": 0.0,
+      "orig_start": 6.16,
+      "orig_end": 6.4
+    },
+    {
+      "word": "के",
+      "start": 6.49,
+      "end": 6.75,
+      "prob": 0.657,
+      "orig_start": 6.4,
+      "orig_end": 6.66
+    },
+    {
+      "word": "founder",
+      "start": 6.75,
+      "end": 7.11,
+      "prob": 0.016,
+      "orig_start": 6.66,
+      "orig_end": 7.02
+    },
+    {
+      "word": "हैं,",
+      "start": 7.11,
+      "end": 7.47,
+      "prob": 0.87,
+      "orig_start": 7.02,
+      "orig_end": 7.38
+    },
+    {
+      "word": "Priyanshi",
+      "start": 7.47,
+      "end": 7.91,
+      "prob": 0.76,
+      "orig_start": 7.44,
+      "orig_end": 7.9
+    },
+    {
+      "word": "Di.",
+      "start": 7.91,
+      "end": 7.97,
+      "prob": 0.002,
+      "orig_start": 7.9,
+      "orig_end": 8.04
+    }
+  ],
+  "segments": [
+    {
+      "start": 2.74,
+      "end": 8.04,
+      "text": "Bulandshahr के अंदर D' Closet सबसे रदा वारेल हैं, और उसको पूरी website के founder हैं, Priyanshi Di."
+    }
+  ],
+  "energy_threshold_db": -51.3
+}

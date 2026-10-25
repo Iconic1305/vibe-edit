@@ -1,0 +1,71 @@
+{
+  "source": "work/proxy/IMG_6134.mp4",
+  "language": "hi",
+  "duration": 2.603,
+  "words": [
+    {
+      "word": "Here",
+      "start": 0.42,
+      "end": 0.68,
+      "prob": 0.034,
+      "orig_start": 0.0,
+      "orig_end": 0.6
+    },
+    {
+      "word": "is",
+      "start": 0.68,
+      "end": 0.89,
+      "prob": 0.918,
+      "orig_start": 0.6,
+      "orig_end": 0.8
+    },
+    {
+      "word": "our",
+      "start": 0.89,
+      "end": 1.09,
+      "prob": 0.922,
+      "orig_start": 0.8,
+      "orig_end": 1.0
+    },
+    {
+      "word": "output,",
+      "start": 1.09,
+      "end": 1.3,
+      "prob": 0.966,
+      "orig_start": 1.0,
+      "orig_end": 1.4
+    },
+    {
+      "word": "have",
+      "start": 1.72,
+      "end": 1.95,
+      "prob": 0.905,
+      "orig_start": 1.7,
+      "orig_end": 1.86
+    },
+    {
+      "word": "a",
+      "start": 1.95,
+      "end": 2.01,
+      "prob": 0.994,
+      "orig_start": 1.86,
+      "orig_end": 1.94
+    },
+    {
+      "word": "look.",
+      "start": 2.01,
+      "end": 2.07,
+      "prob": 0.998,
+      "orig_start": 1.94,
+      "orig_end": 2.14
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.14,
+      "text": "Here is our output, have a look."
+    }
+  ],
+  "energy_threshold_db": -50.4
+}

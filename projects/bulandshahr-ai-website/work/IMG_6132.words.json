@@ -1,0 +1,200 @@
+{
+  "source": "work/proxy/IMG_6132.mp4",
+  "language": "hi",
+  "duration": 13.184,
+  "words": [
+    {
+      "word": "D'",
+      "start": 0.0,
+      "end": 0.34,
+      "prob": 0.0
+    },
+    {
+      "word": "Claude",
+      "start": 0.34,
+      "end": 0.52,
+      "prob": 0.411
+    },
+    {
+      "word": "Design",
+      "start": 0.52,
+      "end": 0.62,
+      "prob": 0.0
+    },
+    {
+      "word": "को",
+      "start": 0.62,
+      "end": 0.76,
+      "prob": 0.464
+    },
+    {
+      "word": "जोभी",
+      "start": 0.76,
+      "end": 1.08,
+      "prob": 0.815
+    },
+    {
+      "word": "output",
+      "start": 1.08,
+      "end": 1.36,
+      "prob": 0.237
+    },
+    {
+      "word": "देखने",
+      "start": 1.36,
+      "end": 1.76,
+      "prob": 0.943
+    },
+    {
+      "word": "को",
+      "start": 1.76,
+      "end": 1.86,
+      "prob": 0.94
+    },
+    {
+      "word": "मिलेगा,",
+      "start": 1.86,
+      "end": 2.2,
+      "prob": 0.837
+    },
+    {
+      "word": "वो",
+      "start": 2.2,
+      "end": 2.48,
+      "prob": 0.919
+    },
+    {
+      "word": "amazing",
+      "start": 2.48,
+      "end": 3.0,
+      "prob": 0.561
+    },
+    {
+      "word": "होगा,",
+      "start": 3.0,
+      "end": 3.38,
+      "prob": 0.905
+    },
+    {
+      "word": "इप",
+      "start": 3.54,
+      "end": 3.66,
+      "prob": 0.706
+    },
+    {
+      "word": "अगर",
+      "start": 3.66,
+      "end": 3.82,
+      "prob": 0.876
+    },
+    {
+      "word": "आपको",
+      "start": 3.82,
+      "end": 4.12,
+      "prob": 0.917
+    },
+    {
+      "word": "पसंद",
+      "start": 4.12,
+      "end": 4.5,
+      "prob": 0.857
+    },
+    {
+      "word": "आता",
+      "start": 4.5,
+      "end": 4.8,
+      "prob": 0.891
+    },
+    {
+      "word": "है,",
+      "start": 4.8,
+      "end": 5.1,
+      "prob": 0.946
+    },
+    {
+      "word": "तो",
+      "start": 5.3,
+      "end": 5.34,
+      "prob": 0.876
+    },
+    {
+      "word": "like",
+      "start": 5.34,
+      "end": 5.58,
+      "prob": 0.518
+    },
+    {
+      "word": "जरूर",
+      "start": 5.58,
+      "end": 6.04,
+      "prob": 0.852
+    },
+    {
+      "word": "करना",
+      "start": 6.04,
+      "end": 6.32,
+      "prob": 0.934
+    },
+    {
+      "word": "वीडियो",
+      "start": 6.32,
+      "end": 6.74,
+      "prob": 0.793
+    },
+    {
+      "word": "को,",
+      "start": 6.74,
+      "end": 6.88,
+      "prob": 0.834
+    },
+    {
+      "word": "और",
+      "start": 7.84,
+      "end": 11.2,
+      "prob": 0.803
+    },
+    {
+      "word": "account",
+      "start": 11.2,
+      "end": 11.52,
+      "prob": 0.555
+    },
+    {
+      "word": "को",
+      "start": 11.52,
+      "end": 11.68,
+      "prob": 0.955
+    },
+    {
+      "word": "follow",
+      "start": 11.68,
+      "end": 12.0,
+      "prob": 0.838
+    },
+    {
+      "word": "भी",
+      "start": 12.0,
+      "end": 12.14,
+      "prob": 0.753
+    },
+    {
+      "word": "कर",
+      "start": 12.14,
+      "end": 12.34,
+      "prob": 0.857
+    },
+    {
+      "word": "लेना.",
+      "start": 12.34,
+      "end": 12.64,
+      "prob": 0.812
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 12.64,
+      "text": "D' Claude Design को जोभी output देखने को मिलेगा, वो amazing होगा, इप अगर आपको पसंद आता है, तो like जरूर करना वीडियो को, और account को follow भी कर लेना."
+    }
+  ]
+}

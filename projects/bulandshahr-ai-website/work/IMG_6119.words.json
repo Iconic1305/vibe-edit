@@ -1,0 +1,188 @@
+{
+  "source": "work/proxy/IMG_6119.mp4",
+  "language": "hi",
+  "duration": 9.152,
+  "words": [
+    {
+      "word": "So",
+      "start": 0.0,
+      "end": 0.74,
+      "prob": 0.08
+    },
+    {
+      "word": "भी",
+      "start": 0.74,
+      "end": 0.9,
+      "prob": 0.662
+    },
+    {
+      "word": "जो",
+      "start": 0.9,
+      "end": 1.02,
+      "prob": 0.805
+    },
+    {
+      "word": "ChatGPT",
+      "start": 1.02,
+      "end": 1.54,
+      "prob": 0.336
+    },
+    {
+      "word": "हमको",
+      "start": 1.54,
+      "end": 1.76,
+      "prob": 0.515
+    },
+    {
+      "word": "prompt",
+      "start": 1.76,
+      "end": 2.02,
+      "prob": 0.313
+    },
+    {
+      "word": "मिला",
+      "start": 2.02,
+      "end": 2.26,
+      "prob": 0.751
+    },
+    {
+      "word": "हैं,",
+      "start": 2.26,
+      "end": 2.34,
+      "prob": 0.429
+    },
+    {
+      "word": "इसको",
+      "start": 2.38,
+      "end": 2.54,
+      "prob": 0.947
+    },
+    {
+      "word": "simply",
+      "start": 2.54,
+      "end": 2.98,
+      "prob": 0.329
+    },
+    {
+      "word": "उठाकर",
+      "start": 2.98,
+      "end": 3.42,
+      "prob": 0.843
+    },
+    {
+      "word": "हम",
+      "start": 3.42,
+      "end": 3.54,
+      "prob": 0.879
+    },
+    {
+      "word": "Claude",
+      "start": 3.54,
+      "end": 3.8,
+      "prob": 0.543
+    },
+    {
+      "word": "पे",
+      "start": 3.8,
+      "end": 3.94,
+      "prob": 0.751
+    },
+    {
+      "word": "paste",
+      "start": 3.94,
+      "end": 4.26,
+      "prob": 0.184
+    },
+    {
+      "word": "करेंगे,",
+      "start": 4.26,
+      "end": 4.74,
+      "prob": 0.936
+    },
+    {
+      "word": "और",
+      "start": 4.88,
+      "end": 4.98,
+      "prob": 0.79
+    },
+    {
+      "word": "Claude",
+      "start": 4.98,
+      "end": 5.32,
+      "prob": 0.935
+    },
+    {
+      "word": "से",
+      "start": 5.32,
+      "end": 5.84,
+      "prob": 0.955
+    },
+    {
+      "word": "जोभी",
+      "start": 5.84,
+      "end": 6.14,
+      "prob": 0.844
+    },
+    {
+      "word": "हम",
+      "start": 6.14,
+      "end": 6.2,
+      "prob": 0.956
+    },
+    {
+      "word": "का",
+      "start": 6.2,
+      "end": 6.34,
+      "prob": 0.488
+    },
+    {
+      "word": "output",
+      "start": 6.34,
+      "end": 6.66,
+      "prob": 0.227
+    },
+    {
+      "word": "मिलता",
+      "start": 6.66,
+      "end": 7.18,
+      "prob": 0.903
+    },
+    {
+      "word": "हैं,",
+      "start": 7.18,
+      "end": 7.48,
+      "prob": 0.797
+    },
+    {
+      "word": "वो",
+      "start": 7.52,
+      "end": 7.64,
+      "prob": 0.87
+    },
+    {
+      "word": "देखने",
+      "start": 7.64,
+      "end": 8.06,
+      "prob": 0.943
+    },
+    {
+      "word": "लायाक",
+      "start": 8.06,
+      "end": 8.3,
+      "prob": 0.759
+    },
+    {
+      "word": "होगा.",
+      "start": 8.3,
+      "end": 8.54,
+      "prob": 0.874
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.54,
+      "text": "So भी जो ChatGPT हमको prompt मिला हैं, इसको simply उठाकर हम Claude पे paste करेंगे, और Claude से जोभी हम का output मिलता हैं, वो देखने लायाक होगा."
+    }
+  ]
+}

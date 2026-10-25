@@ -1,0 +1,56 @@
+{
+  "source": "work/proxy/IMG_6134.mp4",
+  "language": "hi",
+  "duration": 2.603,
+  "words": [
+    {
+      "word": "Here",
+      "start": 0.0,
+      "end": 0.6,
+      "prob": 0.034
+    },
+    {
+      "word": "is",
+      "start": 0.6,
+      "end": 0.8,
+      "prob": 0.918
+    },
+    {
+      "word": "our",
+      "start": 0.8,
+      "end": 1.0,
+      "prob": 0.922
+    },
+    {
+      "word": "output,",
+      "start": 1.0,
+      "end": 1.4,
+      "prob": 0.966
+    },
+    {
+      "word": "have",
+      "start": 1.7,
+      "end": 1.86,
+      "prob": 0.905
+    },
+    {
+      "word": "a",
+      "start": 1.86,
+      "end": 1.94,
+      "prob": 0.994
+    },
+    {
+      "word": "look.",
+      "start": 1.94,
+      "end": 2.14,
+      "prob": 0.998
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.14,
+      "text": "Here is our output, have a look."
+    }
+  ]
+}

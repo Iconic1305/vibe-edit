@@ -9,10 +9,24 @@ are fixed in the output.
 """
 import argparse
 import re
+import subprocess
 import sys
 from pathlib import Path
 
 from common import fmt_time, load_names, project_root, save_json, work_dir
+
+CLEAN = "highpass=f=80,afftdn=nf=-28,dynaudnorm=f=150:g=15,loudnorm=I=-16:TP=-1.5"
+
+
+def load_audio(path, clean=False):
+    """Decode any media file to 16 kHz mono float32 with FFmpeg (independent of PyAV versions)."""
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(path), "-vn", *(["-af", CLEAN] if clean else []), "-ac", "1", "-ar", "16000", "-f", "f32le", "-"],
+                         capture_output=True)
+    if raw.returncode != 0 or not raw.stdout:
+        sys.exit(f"No decodable audio in {path}: {raw.stderr.decode()[:200]}")
+    return np.frombuffer(raw.stdout, dtype=np.float32)
+
 
 PUNCT = re.compile(r"^(\W*)(.*?)(\W*)$")
 
@@ -29,6 +43,9 @@ def main():
     ap.add_argument("--model", default="small", help="tiny, base, small, medium, large-v3, or a local model folder (default: small)")
     ap.add_argument("--language", default=None, help="e.g. en, es, pt (default: auto-detect)")
     ap.add_argument("--device", default="auto", help="auto, cpu or cuda")
+    ap.add_argument("--prompt", default=None, help="extra initial prompt, e.g. a Roman-script Hinglish sentence to bias the output script")
+    ap.add_argument("--beam", type=int, default=5)
+    ap.add_argument("--clean", action="store_true", help="denoise + normalise loudness before transcribing (quiet or noisy takes)")
     args = ap.parse_args()
 
     try:
@@ -42,11 +59,11 @@ def main():
 
     WORK = work_dir(video)
     names, fixes = load_names(project_root(video) / "names.txt")
-    hint = ("Names: " + ", ".join(names) + ".") if names else None
+    hint = " ".join(x for x in [args.prompt, ("Names: " + ", ".join(names) + ".") if names else None] if x) or None
 
     print(f"Loading Whisper '{args.model}' (downloads on first use)…")
     try:
-        model = WhisperModel(args.model, device=args.device, compute_type="auto")
+        model = WhisperModel(args.model, device=args.device, compute_type="int8" if args.device in ("auto", "cpu") else "auto")
     except Exception as exc:  # no network, blocked host, bad path
         sys.exit(
             f"Could not load Whisper model '{args.model}': {type(exc).__name__}: {exc}\n"
@@ -55,7 +72,10 @@ def main():
             "  * download the model once and pass its folder:  --model /path/to/faster-whisper-small"
         )
     segments, info = model.transcribe(
-        str(video),
+        load_audio(video, args.clean),
+        beam_size=args.beam,
+        condition_on_previous_text=False,
+        temperature=[0.0, 0.2, 0.4],
         language=args.language,
         word_timestamps=True,
         initial_prompt=hint,

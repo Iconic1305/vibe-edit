@@ -1,0 +1,50 @@
+{
+  "source": "projects/bulandshahr-ai-website/work/proxy/IMG_6073.mp4",
+  "language": "hi",
+  "duration": 2.24,
+  "words": [
+    {
+      "word": "ये",
+      "start": 0.0,
+      "end": 0.54,
+      "prob": 0.514
+    },
+    {
+      "word": "वेब्साइट",
+      "start": 0.54,
+      "end": 1.0,
+      "prob": 0.731
+    },
+    {
+      "word": "अभी",
+      "start": 1.0,
+      "end": 1.2,
+      "prob": 0.777
+    },
+    {
+      "word": "गूट",
+      "start": 1.2,
+      "end": 1.58,
+      "prob": 0.71
+    },
+    {
+      "word": "तो",
+      "start": 1.58,
+      "end": 1.72,
+      "prob": 0.698
+    },
+    {
+      "word": "गोएन।",
+      "start": 1.72,
+      "end": 2.06,
+      "prob": 0.497
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.06,
+      "text": "ये वेब्साइट अभी गूट तो गोएन।"
+    }
+  ]
+}

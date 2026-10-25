@@ -1,0 +1,122 @@
+{
+  "source": "work/proxy/IMG_6060.mp4",
+  "language": "hi",
+  "duration": 8.768,
+  "words": [
+    {
+      "word": "Bulandshahr",
+      "start": 2.74,
+      "end": 3.24,
+      "prob": 0.221
+    },
+    {
+      "word": "के",
+      "start": 3.24,
+      "end": 3.34,
+      "prob": 0.632
+    },
+    {
+      "word": "अंदर",
+      "start": 3.34,
+      "end": 3.48,
+      "prob": 0.779
+    },
+    {
+      "word": "D'",
+      "start": 3.48,
+      "end": 3.72,
+      "prob": 0.201
+    },
+    {
+      "word": "Closet",
+      "start": 3.84,
+      "end": 4.02,
+      "prob": 0.653
+    },
+    {
+      "word": "सबसे",
+      "start": 4.02,
+      "end": 4.36,
+      "prob": 0.839
+    },
+    {
+      "word": "रदा",
+      "start": 4.36,
+      "end": 4.68,
+      "prob": 0.711
+    },
+    {
+      "word": "वारेल",
+      "start": 4.68,
+      "end": 4.96,
+      "prob": 0.625
+    },
+    {
+      "word": "हैं,",
+      "start": 4.96,
+      "end": 5.16,
+      "prob": 0.717
+    },
+    {
+      "word": "और",
+      "start": 5.24,
+      "end": 5.42,
+      "prob": 0.919
+    },
+    {
+      "word": "उसको",
+      "start": 5.42,
+      "end": 5.7,
+      "prob": 0.911
+    },
+    {
+      "word": "पूरी",
+      "start": 5.7,
+      "end": 6.16,
+      "prob": 0.265
+    },
+    {
+      "word": "website",
+      "start": 6.16,
+      "end": 6.4,
+      "prob": 0.0
+    },
+    {
+      "word": "के",
+      "start": 6.4,
+      "end": 6.66,
+      "prob": 0.657
+    },
+    {
+      "word": "founder",
+      "start": 6.66,
+      "end": 7.02,
+      "prob": 0.016
+    },
+    {
+      "word": "हैं,",
+      "start": 7.02,
+      "end": 7.38,
+      "prob": 0.87
+    },
+    {
+      "word": "Priyanshi",
+      "start": 7.44,
+      "end": 7.9,
+      "prob": 0.76
+    },
+    {
+      "word": "Di.",
+      "start": 7.9,
+      "end": 8.04,
+      "prob": 0.002
+    }
+  ],
+  "segments": [
+    {
+      "start": 2.74,
+      "end": 8.04,
+      "text": "Bulandshahr के अंदर D' Closet सबसे रदा वारेल हैं, और उसको पूरी website के founder हैं, Priyanshi Di."
+    }
+  ]
+}

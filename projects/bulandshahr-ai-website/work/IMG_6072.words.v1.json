@@ -1,0 +1,92 @@
+{
+  "source": "projects/bulandshahr-ai-website/work/proxy/IMG_6072.mp4",
+  "language": "hi",
+  "duration": 4.501,
+  "words": [
+    {
+      "word": "AI",
+      "start": 0.0,
+      "end": 0.92,
+      "prob": 0.453
+    },
+    {
+      "word": "से",
+      "start": 0.92,
+      "end": 1.12,
+      "prob": 0.925
+    },
+    {
+      "word": "related",
+      "start": 1.12,
+      "end": 1.42,
+      "prob": 0.418
+    },
+    {
+      "word": "और",
+      "start": 1.42,
+      "end": 1.62,
+      "prob": 0.86
+    },
+    {
+      "word": "भी",
+      "start": 1.62,
+      "end": 1.72,
+      "prob": 0.833
+    },
+    {
+      "word": "content",
+      "start": 1.72,
+      "end": 2.04,
+      "prob": 0.985
+    },
+    {
+      "word": "देखना",
+      "start": 2.04,
+      "end": 2.36,
+      "prob": 0.919
+    },
+    {
+      "word": "है,",
+      "start": 2.36,
+      "end": 2.38,
+      "prob": 0.911
+    },
+    {
+      "word": "तो",
+      "start": 2.48,
+      "end": 2.56,
+      "prob": 0.934
+    },
+    {
+      "word": "follow",
+      "start": 2.56,
+      "end": 2.82,
+      "prob": 0.816
+    },
+    {
+      "word": "ज़रूर",
+      "start": 2.82,
+      "end": 3.3,
+      "prob": 0.807
+    },
+    {
+      "word": "करके",
+      "start": 3.3,
+      "end": 3.58,
+      "prob": 0.782
+    },
+    {
+      "word": "रखना।",
+      "start": 3.58,
+      "end": 4.12,
+      "prob": 0.705
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.12,
+      "text": "AI से related और भी content देखना है, तो follow ज़रूर करके रखना।"
+    }
+  ]
+}

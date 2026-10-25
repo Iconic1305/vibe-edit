@@ -1,0 +1,79 @@
+{
+  "source": "work/proxy/IMG_6105.mp4",
+  "duration": 11.867,
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "orientation": "vertical",
+    "fps": 30.0,
+    "codec": "h264",
+    "rotation": 0
+  },
+  "audio": {
+    "present": true,
+    "mean_volume_db": -33.3,
+    "peak_volume_db": -13.7,
+    "silences": [
+      {
+        "start": 0.0,
+        "end": 0.69
+      },
+      {
+        "start": 6.21,
+        "end": 6.65
+      },
+      {
+        "start": 7.62,
+        "end": 8.19
+      },
+      {
+        "start": 10.02,
+        "end": 10.45
+      },
+      {
+        "start": 11.18,
+        "end": 11.86
+      }
+    ]
+  },
+  "luma": {
+    "fps": 1.0,
+    "mean": 150.5,
+    "samples": [
+      152.542,
+      150.831,
+      153.794,
+      150.587,
+      149.058,
+      150.912,
+      149.947,
+      149.157,
+      148.554,
+      150.363,
+      149.06,
+      150.626
+    ]
+  },
+  "motion": {
+    "fps": 1.0,
+    "mean_diff": 15.893,
+    "samples": [
+      0.0,
+      18.608,
+      16.674,
+      17.5393,
+      12.8384,
+      11.8468,
+      17.7628,
+      21.0878,
+      15.5584,
+      21.0122,
+      19.9325,
+      17.8498
+    ]
+  },
+  "scene_cuts": [],
+  "flags": [
+    "Audio is quiet (mean -33.3 dB): normalise or re-record closer to the mic."
+  ]
+}

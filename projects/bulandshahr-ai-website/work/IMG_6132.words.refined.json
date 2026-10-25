@@ -1,0 +1,263 @@
+{
+  "source": "work/proxy/IMG_6132.mp4",
+  "language": "hi",
+  "duration": 13.184,
+  "words": [
+    {
+      "word": "D'",
+      "start": 0.03,
+      "end": 0.43,
+      "prob": 0.0,
+      "orig_start": 0.0,
+      "orig_end": 0.34
+    },
+    {
+      "word": "Claude",
+      "start": 0.43,
+      "end": 0.61,
+      "prob": 0.411,
+      "orig_start": 0.34,
+      "orig_end": 0.52
+    },
+    {
+      "word": "Design",
+      "start": 0.61,
+      "end": 0.71,
+      "prob": 0.0,
+      "orig_start": 0.52,
+      "orig_end": 0.62
+    },
+    {
+      "word": "को",
+      "start": 0.71,
+      "end": 0.85,
+      "prob": 0.464,
+      "orig_start": 0.62,
+      "orig_end": 0.76
+    },
+    {
+      "word": "जोभी",
+      "start": 0.85,
+      "end": 1.17,
+      "prob": 0.815,
+      "orig_start": 0.76,
+      "orig_end": 1.08
+    },
+    {
+      "word": "output",
+      "start": 1.17,
+      "end": 1.45,
+      "prob": 0.237,
+      "orig_start": 1.08,
+      "orig_end": 1.36
+    },
+    {
+      "word": "देखने",
+      "start": 1.45,
+      "end": 1.85,
+      "prob": 0.943,
+      "orig_start": 1.36,
+      "orig_end": 1.76
+    },
+    {
+      "word": "को",
+      "start": 1.85,
+      "end": 1.95,
+      "prob": 0.94,
+      "orig_start": 1.76,
+      "orig_end": 1.86
+    },
+    {
+      "word": "मिलेगा,",
+      "start": 1.95,
+      "end": 2.29,
+      "prob": 0.837,
+      "orig_start": 1.86,
+      "orig_end": 2.2
+    },
+    {
+      "word": "वो",
+      "start": 2.29,
+      "end": 2.57,
+      "prob": 0.919,
+      "orig_start": 2.2,
+      "orig_end": 2.48
+    },
+    {
+      "word": "amazing",
+      "start": 2.57,
+      "end": 3.09,
+      "prob": 0.561,
+      "orig_start": 2.48,
+      "orig_end": 3.0
+    },
+    {
+      "word": "होगा,",
+      "start": 3.09,
+      "end": 3.47,
+      "prob": 0.905,
+      "orig_start": 3.0,
+      "orig_end": 3.38
+    },
+    {
+      "word": "इप",
+      "start": 3.47,
+      "end": 3.75,
+      "prob": 0.706,
+      "orig_start": 3.54,
+      "orig_end": 3.66
+    },
+    {
+      "word": "अगर",
+      "start": 3.75,
+      "end": 3.88,
+      "prob": 0.876,
+      "orig_start": 3.66,
+      "orig_end": 3.82
+    },
+    {
+      "word": "आपको",
+      "start": 3.88,
+      "end": 4.21,
+      "prob": 0.917,
+      "orig_start": 3.82,
+      "orig_end": 4.12
+    },
+    {
+      "word": "पसंद",
+      "start": 4.21,
+      "end": 4.57,
+      "prob": 0.857,
+      "orig_start": 4.12,
+      "orig_end": 4.5
+    },
+    {
+      "word": "आता",
+      "start": 4.57,
+      "end": 4.79,
+      "prob": 0.891,
+      "orig_start": 4.5,
+      "orig_end": 4.8
+    },
+    {
+      "word": "है,",
+      "start": 4.79,
+      "end": 4.85,
+      "prob": 0.946,
+      "orig_start": 4.8,
+      "orig_end": 5.1
+    },
+    {
+      "word": "तो",
+      "start": 5.23,
+      "end": 5.43,
+      "prob": 0.876,
+      "orig_start": 5.3,
+      "orig_end": 5.34
+    },
+    {
+      "word": "like",
+      "start": 5.43,
+      "end": 5.67,
+      "prob": 0.518,
+      "orig_start": 5.34,
+      "orig_end": 5.58
+    },
+    {
+      "word": "जरूर",
+      "start": 5.67,
+      "end": 6.13,
+      "prob": 0.852,
+      "orig_start": 5.58,
+      "orig_end": 6.04
+    },
+    {
+      "word": "करना",
+      "start": 6.13,
+      "end": 6.4,
+      "prob": 0.934,
+      "orig_start": 6.04,
+      "orig_end": 6.32
+    },
+    {
+      "word": "वीडियो",
+      "start": 6.4,
+      "end": 6.68,
+      "prob": 0.793,
+      "orig_start": 6.32,
+      "orig_end": 6.74
+    },
+    {
+      "word": "को,",
+      "start": 6.68,
+      "end": 6.97,
+      "prob": 0.834,
+      "orig_start": 6.74,
+      "orig_end": 6.88
+    },
+    {
+      "word": "और",
+      "start": 9.38,
+      "end": 11.29,
+      "prob": 0.803,
+      "orig_start": 7.84,
+      "orig_end": 11.2
+    },
+    {
+      "word": "account",
+      "start": 11.29,
+      "end": 11.61,
+      "prob": 0.555,
+      "orig_start": 11.2,
+      "orig_end": 11.52
+    },
+    {
+      "word": "को",
+      "start": 11.61,
+      "end": 11.77,
+      "prob": 0.955,
+      "orig_start": 11.52,
+      "orig_end": 11.68
+    },
+    {
+      "word": "follow",
+      "start": 11.77,
+      "end": 12.09,
+      "prob": 0.838,
+      "orig_start": 11.68,
+      "orig_end": 12.0
+    },
+    {
+      "word": "भी",
+      "start": 12.09,
+      "end": 12.23,
+      "prob": 0.753,
+      "orig_start": 12.0,
+      "orig_end": 12.14
+    },
+    {
+      "word": "कर",
+      "start": 12.23,
+      "end": 12.4,
+      "prob": 0.857,
+      "orig_start": 12.14,
+      "orig_end": 12.34
+    },
+    {
+      "word": "लेना.",
+      "start": 12.4,
+      "end": 12.46,
+      "prob": 0.812,
+      "orig_start": 12.34,
+      "orig_end": 12.64
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 12.64,
+      "text": "D' Claude Design को जोभी output देखने को मिलेगा, वो amazing होगा, इप अगर आपको पसंद आता है, तो like जरूर करना वीडियो को, और account को follow भी कर लेना."
+    }
+  ],
+  "energy_threshold_db": -51.0
+}

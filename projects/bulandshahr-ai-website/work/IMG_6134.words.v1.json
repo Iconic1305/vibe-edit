@@ -1,0 +1,56 @@
+{
+  "source": "projects/bulandshahr-ai-website/work/proxy/IMG_6134.mp4",
+  "language": "hi",
+  "duration": 2.603,
+  "words": [
+    {
+      "word": "Here",
+      "start": 0.0,
+      "end": 0.56,
+      "prob": 0.033
+    },
+    {
+      "word": "is",
+      "start": 0.56,
+      "end": 0.78,
+      "prob": 0.91
+    },
+    {
+      "word": "our",
+      "start": 0.78,
+      "end": 0.98,
+      "prob": 0.919
+    },
+    {
+      "word": "output,",
+      "start": 0.98,
+      "end": 1.34,
+      "prob": 0.956
+    },
+    {
+      "word": "have",
+      "start": 1.78,
+      "end": 1.86,
+      "prob": 0.866
+    },
+    {
+      "word": "a",
+      "start": 1.86,
+      "end": 1.92,
+      "prob": 0.995
+    },
+    {
+      "word": "look.",
+      "start": 1.92,
+      "end": 2.12,
+      "prob": 0.996
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.12,
+      "text": "Here is our output, have a look."
+    }
+  ]
+}

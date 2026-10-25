@@ -1,0 +1,80 @@
+{
+  "source": "work/proxy/IMG_6061.mp4",
+  "language": "hi",
+  "duration": 7.488,
+  "words": [
+    {
+      "word": "पूरा",
+      "start": 0.0,
+      "end": 0.64,
+      "prob": 0.823
+    },
+    {
+      "word": "tutorial",
+      "start": 0.64,
+      "end": 1.02,
+      "prob": 0.036
+    },
+    {
+      "word": "आगे",
+      "start": 1.02,
+      "end": 1.4,
+      "prob": 0.872
+    },
+    {
+      "word": "हैं",
+      "start": 1.4,
+      "end": 1.56,
+      "prob": 0.661
+    },
+    {
+      "word": "वीडियों",
+      "start": 1.56,
+      "end": 1.88,
+      "prob": 0.781
+    },
+    {
+      "word": "में,",
+      "start": 1.88,
+      "end": 2.2,
+      "prob": 0.786
+    },
+    {
+      "word": "तो",
+      "start": 2.2,
+      "end": 2.3,
+      "prob": 0.872
+    },
+    {
+      "word": "अंतक",
+      "start": 2.3,
+      "end": 2.76,
+      "prob": 0.631
+    },
+    {
+      "word": "देखना",
+      "start": 2.76,
+      "end": 6.56,
+      "prob": 0.888
+    },
+    {
+      "word": "रहा",
+      "start": 6.56,
+      "end": 6.9,
+      "prob": 0.659
+    },
+    {
+      "word": "हैं।",
+      "start": 6.9,
+      "end": 7.46,
+      "prob": 0.639
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.46,
+      "text": "पूरा tutorial आगे हैं वीडियों में, तो अंतक देखना रहा हैं।"
+    }
+  ]
+}
