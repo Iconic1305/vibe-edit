@@ -12,3 +12,6 @@
 Sandbox note: `cdn.jsdelivr.net` and `huggingface.co` are blocked in cloud sessions.
 Vendor GSAP locally (`npm pack gsap@3.14.2`, copy `dist/gsap.min.js` into the composition)
 instead of loading it from the CDN.
+
+After `npx hyperframes init`, run `scripts/vendor_gsap.sh project/<name>` before rendering.
+It fixes `ERR_TUNNEL_CONNECTION_FAILED` / `Cannot read properties of null (reading 'timeline')`.
