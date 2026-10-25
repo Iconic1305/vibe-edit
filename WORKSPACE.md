@@ -1,17 +1,6 @@
-# vibe-edit workspace
+# Workspace notes
 
-| Folder     | Purpose                                                         |
-|------------|-----------------------------------------------------------------|
-| `input/`   | Original takes. Read-only: never edit, rename or overwrite.     |
-| `assets/`  | Logos, images, music, sound effects                             |
-| `refs/`    | Style references (screenshots, GIFs, short clips)               |
-| `project/` | HyperFrames compositions, transcripts, beat sheets, cut lists   |
-| `previews/`| Low-res draft renders                                           |
-| `exports/` | Final MP4s                                                      |
-
-Sandbox note: `cdn.jsdelivr.net` and `huggingface.co` are blocked in cloud sessions.
-Vendor GSAP locally (`npm pack gsap@3.14.2`, copy `dist/gsap.min.js` into the composition)
-instead of loading it from the CDN.
-
-After `npx hyperframes init`, run `scripts/vendor_gsap.sh project/<name>` before rendering.
-It fixes `ERR_TUNNEL_CONNECTION_FAILED` / `Cannot read properties of null (reading 'timeline')`.
+The workspace is now `projects/<slug>/` (one persistent folder per video); see README.md.
+Cloud sandbox: `cdn.jsdelivr.net` and `huggingface.co` are blocked. GSAP is vendored by `scripts/vendor_gsap.sh`
+(run automatically by `new_project.py` and `produce.sh`). To fix an old composition by hand:
+`bash scripts/vendor_gsap.sh projects/<slug>/hyperframes`.

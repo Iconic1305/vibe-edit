@@ -1,0 +1,8 @@
+{"note":"SAMPLE: hand-written word timings for the synthetic clip (Whisper's model host is blocked in this session). Not a real transcription.",
+ "source":"input/take.mp4","language":"en","duration":12,"segments":[],
+ "words":[
+ {"word":"Hi,","start":0.5,"end":0.7},{"word":"I'm","start":0.7,"end":0.9},{"word":"Sam.","start":0.9,"end":1.4},
+ {"word":"Zoom","start":2.6,"end":2.9},{"word":"in","start":2.9,"end":3.0},{"word":"on","start":3.0,"end":3.1},{"word":"my","start":3.1,"end":3.2},{"word":"hand.","start":3.2,"end":3.7},
+ {"word":"Here","start":5.0,"end":5.2},{"word":"is","start":5.2,"end":5.3},{"word":"the","start":5.3,"end":5.4},{"word":"logo.","start":5.4,"end":5.9},
+ {"word":"Now","start":7.2,"end":7.4},{"word":"throw","start":7.4,"end":7.7},{"word":"it","start":7.7,"end":7.8},{"word":"at","start":7.8,"end":7.9},{"word":"the","start":7.9,"end":8.0},{"word":"camera.","start":8.0,"end":8.6},
+ {"word":"Follow","start":10.0,"end":10.4},{"word":"for","start":10.4,"end":10.5},{"word":"more.","start":10.5,"end":11.0}]}

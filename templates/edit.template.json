@@ -1,0 +1,24 @@
+{
+  "format": "9:16",
+  "source": {
+    "video": "input/take.mp4",
+    "words": "work/take.words.json",
+    "cuts": null,
+    "focus_x": 0.5,
+    "muted": false
+  },
+  "style": { "accent": "#FFD400", "text": "#FFFFFF", "font": "Inter", "background": "#0d0f14" },
+  "captions": { "enabled": true, "style": "pop", "words_per_group": 3, "y": 0.65, "size": null, "uppercase": false },
+  "title_card": { "text": "", "subtitle": "", "duration": 2.0 },
+  "lower_third": { "name": "", "handle": "", "at": null, "when": null, "duration": 4.0 },
+  "zooms": {
+    "auto": { "enabled": false, "scale": 1.2, "hold": 2.0, "min_gap": 5.0, "origin": "50% 40%", "keywords": [] },
+    "manual": []
+  },
+  "jump_cut_punch": { "enabled": false, "scale": 1.08 },
+  "transitions": { "flash_on_cuts": false, "flash_at": [] },
+  "popups": [],
+  "logo3d": null,
+  "sfx": { "enabled": true, "volume": 0.7, "on_zoom": "whoosh", "on_popup": "pop", "on_title": "boom", "on_lower_third": "click", "on_flash": "click", "on_throw": "boom" },
+  "music": { "file": null, "volume": 0.12 }
+}

@@ -1,0 +1,1 @@
+# Names Whisper must spell right. One per line; use 'wrong => right' to force a fix.

@@ -1,0 +1,891 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 14
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 101.1,
+    "samples": [
+      5.617,
+      16.85,
+      28.083,
+      39.317,
+      50.55,
+      61.783,
+      73.017,
+      84.25,
+      95.483
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      5.617,
+      28.083,
+      50.55,
+      73.017,
+      95.483
+    ],
+    "checked": 44,
+    "passed": 44
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 15,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "first_frame_empty",
+        "severity": "warning",
+        "message": "Frame 0 shows only the background, and the first frame is the thumbnail on social players: have the title or key image already on screen at 0 s instead of entering from nothing; see references/review.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      },
+      {
+        "code": "film_silent",
+        "severity": "warning",
+        "message": "This 101 s film has no sound source (no <audio>, no <video> with sound): add a music bed and sounds on the visible actions unless the person asked for silence; see references/sound.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 5 text elements stay under it for 0.5 s or more, the smallest \"01\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "01",
+        "selector": "#s01-r1 > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s01.html",
+        "bbox": {
+          "x": 1049.17,
+          "y": 340.5,
+          "width": 30.25,
+          "height": 31
+        },
+        "time": 6.245,
+        "times": [
+          6.245,
+          6.751,
+          7.258,
+          7.764,
+          8.27
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 7.595,
+        "elements": [
+          {
+            "selector": "#s01-r1 > span:nth-of-type(1)",
+            "text": "01",
+            "fontPx": 26,
+            "time": 6.245,
+            "seconds": 7.595
+          },
+          {
+            "selector": "#s01-r2 > span:nth-of-type(1)",
+            "text": "02",
+            "fontPx": 26,
+            "time": 6.751,
+            "seconds": 7.089
+          },
+          {
+            "selector": "#s01-r3 > span:nth-of-type(1)",
+            "text": "03",
+            "fontPx": 26,
+            "time": 7.258,
+            "seconds": 6.582
+          },
+          {
+            "selector": "#s01-r4 > span:nth-of-type(1)",
+            "text": "04",
+            "fontPx": 26,
+            "time": 7.764,
+            "seconds": 6.076
+          },
+          {
+            "selector": "#s01-r5 > span:nth-of-type(1)",
+            "text": "05",
+            "fontPx": 26,
+            "time": 8.27,
+            "seconds": 5.57
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 6 text elements stay under it for 0.5 s or more, the smallest \"01\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "01",
+        "selector": "#s02-r1 > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s02.html",
+        "bbox": {
+          "x": 1043,
+          "y": 294.5,
+          "width": 30.25,
+          "height": 31
+        },
+        "time": 15.19,
+        "times": [
+          15.19,
+          15.697,
+          16.203,
+          16.709,
+          17.216,
+          17.722
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 7.596,
+        "elements": [
+          {
+            "selector": "#s02-r1 > span:nth-of-type(1)",
+            "text": "01",
+            "fontPx": 26,
+            "time": 15.19,
+            "seconds": 7.596
+          },
+          {
+            "selector": "#s02-r2 > span:nth-of-type(1)",
+            "text": "02",
+            "fontPx": 26,
+            "time": 15.697,
+            "seconds": 7.089
+          },
+          {
+            "selector": "#s02-r3 > span:nth-of-type(1)",
+            "text": "03",
+            "fontPx": 26,
+            "time": 16.203,
+            "seconds": 6.583
+          },
+          {
+            "selector": "#s02-r4 > span:nth-of-type(1)",
+            "text": "04",
+            "fontPx": 26,
+            "time": 16.709,
+            "seconds": 6.077
+          },
+          {
+            "selector": "#s02-r5 > span:nth-of-type(1)",
+            "text": "05",
+            "fontPx": 26,
+            "time": 17.216,
+            "seconds": 5.57
+          },
+          {
+            "selector": "#s02-r6 > span:nth-of-type(1)",
+            "text": "06",
+            "fontPx": 26,
+            "time": 17.722,
+            "seconds": 5.064
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 6 text elements stay under it for 0.5 s or more, the smallest \"01\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "01",
+        "selector": "#s03-r1 > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s03.html",
+        "bbox": {
+          "x": 1035.76,
+          "y": 294.5,
+          "width": 30.25,
+          "height": 31
+        },
+        "time": 24.136,
+        "times": [
+          24.136,
+          24.642,
+          25.148,
+          25.655,
+          26.161,
+          26.667
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 7.426,
+        "elements": [
+          {
+            "selector": "#s03-r1 > span:nth-of-type(1)",
+            "text": "01",
+            "fontPx": 26,
+            "time": 24.136,
+            "seconds": 7.426
+          },
+          {
+            "selector": "#s03-r2 > span:nth-of-type(1)",
+            "text": "02",
+            "fontPx": 26,
+            "time": 24.642,
+            "seconds": 6.92
+          },
+          {
+            "selector": "#s03-r3 > span:nth-of-type(1)",
+            "text": "03",
+            "fontPx": 26,
+            "time": 25.148,
+            "seconds": 6.414
+          },
+          {
+            "selector": "#s03-r4 > span:nth-of-type(1)",
+            "text": "04",
+            "fontPx": 26,
+            "time": 25.655,
+            "seconds": 5.907
+          },
+          {
+            "selector": "#s03-r5 > span:nth-of-type(1)",
+            "text": "05",
+            "fontPx": 26,
+            "time": 26.161,
+            "seconds": 5.401
+          },
+          {
+            "selector": "#s03-r6 > span:nth-of-type(1)",
+            "text": "06",
+            "fontPx": 26,
+            "time": 26.667,
+            "seconds": 4.895
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 4 text elements stay under it for 0.5 s or more, the smallest \"01\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "01",
+        "selector": "#s04-r1 > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s04.html",
+        "bbox": {
+          "x": 1049.17,
+          "y": 386.5,
+          "width": 30.25,
+          "height": 31
+        },
+        "time": 32.744,
+        "times": [
+          32.744,
+          33.25,
+          33.756,
+          34.263
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.401,
+        "elements": [
+          {
+            "selector": "#s04-r1 > span:nth-of-type(1)",
+            "text": "01",
+            "fontPx": 26,
+            "time": 32.744,
+            "seconds": 5.401
+          },
+          {
+            "selector": "#s04-r2 > span:nth-of-type(1)",
+            "text": "02",
+            "fontPx": 26,
+            "time": 33.25,
+            "seconds": 4.895
+          },
+          {
+            "selector": "#s04-r3 > span:nth-of-type(1)",
+            "text": "03",
+            "fontPx": 26,
+            "time": 33.756,
+            "seconds": 4.389
+          },
+          {
+            "selector": "#s04-r4 > span:nth-of-type(1)",
+            "text": "04",
+            "fontPx": 26,
+            "time": 34.263,
+            "seconds": 3.882
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"01\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "01",
+        "selector": "#s05-r1 > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s05.html",
+        "bbox": {
+          "x": 1057.62,
+          "y": 432.5,
+          "width": 30.25,
+          "height": 31
+        },
+        "time": 39.326,
+        "times": [
+          39.326,
+          39.832,
+          40.339
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 6.076,
+        "elements": [
+          {
+            "selector": "#s05-r1 > span:nth-of-type(1)",
+            "text": "01",
+            "fontPx": 26,
+            "time": 39.326,
+            "seconds": 6.076
+          },
+          {
+            "selector": "#s05-r2 > span:nth-of-type(1)",
+            "text": "02",
+            "fontPx": 26,
+            "time": 39.832,
+            "seconds": 5.57
+          },
+          {
+            "selector": "#s05-r3 > span:nth-of-type(1)",
+            "text": "03",
+            "fontPx": 26,
+            "time": 40.339,
+            "seconds": 5.063
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 7 text elements stay under it for 0.5 s or more, the smallest \"01\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "01",
+        "selector": "#s06-r1 > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s06.html",
+        "bbox": {
+          "x": 1035.76,
+          "y": 248.5,
+          "width": 30.25,
+          "height": 31
+        },
+        "time": 46.752,
+        "times": [
+          46.752,
+          47.259,
+          47.765,
+          48.103,
+          48.609,
+          49.115,
+          49.622
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 7.596,
+        "elements": [
+          {
+            "selector": "#s06-r1 > span:nth-of-type(1)",
+            "text": "01",
+            "fontPx": 26,
+            "time": 46.752,
+            "seconds": 7.596
+          },
+          {
+            "selector": "#s06-r2 > span:nth-of-type(1)",
+            "text": "02",
+            "fontPx": 26,
+            "time": 47.259,
+            "seconds": 7.089
+          },
+          {
+            "selector": "#s06-r3 > span:nth-of-type(1)",
+            "text": "03",
+            "fontPx": 26,
+            "time": 47.765,
+            "seconds": 6.583
+          },
+          {
+            "selector": "#s06-r4 > span:nth-of-type(1)",
+            "text": "04",
+            "fontPx": 26,
+            "time": 48.103,
+            "seconds": 6.245
+          },
+          {
+            "selector": "#s06-r5 > span:nth-of-type(1)",
+            "text": "05",
+            "fontPx": 26,
+            "time": 48.609,
+            "seconds": 5.739
+          },
+          {
+            "selector": "#s06-r6 > span:nth-of-type(1)",
+            "text": "06",
+            "fontPx": 26,
+            "time": 49.115,
+            "seconds": 5.233
+          },
+          {
+            "selector": "#s06-r7 > span:nth-of-type(1)",
+            "text": "07",
+            "fontPx": 26,
+            "time": 49.622,
+            "seconds": 4.726
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 7 text elements stay under it for 0.5 s or more, the smallest \"01\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "01",
+        "selector": "#s07-r1 > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s07.html",
+        "bbox": {
+          "x": 1043,
+          "y": 248.5,
+          "width": 30.25,
+          "height": 31
+        },
+        "time": 55.698,
+        "times": [
+          55.698,
+          56.204,
+          56.711,
+          57.217,
+          57.723,
+          58.23,
+          58.736
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 7.258,
+        "elements": [
+          {
+            "selector": "#s07-r1 > span:nth-of-type(1)",
+            "text": "01",
+            "fontPx": 26,
+            "time": 55.698,
+            "seconds": 7.258
+          },
+          {
+            "selector": "#s07-r2 > span:nth-of-type(1)",
+            "text": "02",
+            "fontPx": 26,
+            "time": 56.204,
+            "seconds": 6.752
+          },
+          {
+            "selector": "#s07-r3 > span:nth-of-type(1)",
+            "text": "03",
+            "fontPx": 26,
+            "time": 56.711,
+            "seconds": 6.245
+          },
+          {
+            "selector": "#s07-r4 > span:nth-of-type(1)",
+            "text": "04",
+            "fontPx": 26,
+            "time": 57.217,
+            "seconds": 5.739
+          },
+          {
+            "selector": "#s07-r5 > span:nth-of-type(1)",
+            "text": "05",
+            "fontPx": 26,
+            "time": 57.723,
+            "seconds": 5.233
+          },
+          {
+            "selector": "#s07-r6 > span:nth-of-type(1)",
+            "text": "06",
+            "fontPx": 26,
+            "time": 58.23,
+            "seconds": 4.726
+          },
+          {
+            "selector": "#s07-r7 > span:nth-of-type(1)",
+            "text": "07",
+            "fontPx": 26,
+            "time": 58.736,
+            "seconds": 4.22
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 5 text elements stay under it for 0.5 s or more, the smallest \"01\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "01",
+        "selector": "#s08-r1 > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s08.html",
+        "bbox": {
+          "x": 1038.67,
+          "y": 340.5,
+          "width": 30.25,
+          "height": 31
+        },
+        "time": 64.306,
+        "times": [
+          64.306,
+          64.812,
+          65.318,
+          65.825,
+          66.331
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 6.92,
+        "elements": [
+          {
+            "selector": "#s08-r1 > span:nth-of-type(1)",
+            "text": "01",
+            "fontPx": 26,
+            "time": 64.306,
+            "seconds": 6.92
+          },
+          {
+            "selector": "#s08-r2 > span:nth-of-type(1)",
+            "text": "02",
+            "fontPx": 26,
+            "time": 64.812,
+            "seconds": 6.414
+          },
+          {
+            "selector": "#s08-r3 > span:nth-of-type(1)",
+            "text": "03",
+            "fontPx": 26,
+            "time": 65.318,
+            "seconds": 5.908
+          },
+          {
+            "selector": "#s08-r4 > span:nth-of-type(1)",
+            "text": "04",
+            "fontPx": 26,
+            "time": 65.825,
+            "seconds": 5.401
+          },
+          {
+            "selector": "#s08-r5 > span:nth-of-type(1)",
+            "text": "05",
+            "fontPx": 26,
+            "time": 66.331,
+            "seconds": 4.895
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 4 text elements stay under it for 0.5 s or more, the smallest \"01\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "01",
+        "selector": "#s09-r1 > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s09.html",
+        "bbox": {
+          "x": 1057.62,
+          "y": 386.5,
+          "width": 30.25,
+          "height": 31
+        },
+        "time": 72.407,
+        "times": [
+          72.407,
+          72.914,
+          73.42,
+          73.926
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 6.245,
+        "elements": [
+          {
+            "selector": "#s09-r1 > span:nth-of-type(1)",
+            "text": "01",
+            "fontPx": 26,
+            "time": 72.407,
+            "seconds": 6.245
+          },
+          {
+            "selector": "#s09-r2 > span:nth-of-type(1)",
+            "text": "02",
+            "fontPx": 26,
+            "time": 72.914,
+            "seconds": 5.738
+          },
+          {
+            "selector": "#s09-r3 > span:nth-of-type(1)",
+            "text": "03",
+            "fontPx": 26,
+            "time": 73.42,
+            "seconds": 5.232
+          },
+          {
+            "selector": "#s09-r4 > span:nth-of-type(1)",
+            "text": "04",
+            "fontPx": 26,
+            "time": 73.926,
+            "seconds": 4.726
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 3 text elements stay under it for 0.5 s or more, the smallest \"01\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "01",
+        "selector": "#s10-r1 > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s10.html",
+        "bbox": {
+          "x": 1049.17,
+          "y": 432.5,
+          "width": 30.25,
+          "height": 31
+        },
+        "time": 79.834,
+        "times": [
+          79.834,
+          80.34,
+          80.846
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 5.232,
+        "elements": [
+          {
+            "selector": "#s10-r1 > span:nth-of-type(1)",
+            "text": "01",
+            "fontPx": 26,
+            "time": 79.834,
+            "seconds": 5.232
+          },
+          {
+            "selector": "#s10-r2 > span:nth-of-type(1)",
+            "text": "02",
+            "fontPx": 26,
+            "time": 80.34,
+            "seconds": 4.726
+          },
+          {
+            "selector": "#s10-r3 > span:nth-of-type(1)",
+            "text": "03",
+            "fontPx": 26,
+            "time": 80.846,
+            "seconds": 4.22
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 7 text elements stay under it for 0.5 s or more, the smallest \"01\" at 26 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "01",
+        "selector": "#s11-r1 > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s11.html",
+        "bbox": {
+          "x": 1049.17,
+          "y": 232.7,
+          "width": 30.25,
+          "height": 31
+        },
+        "time": 86.247,
+        "times": [
+          86.247,
+          86.754,
+          87.26,
+          87.766,
+          88.273,
+          88.779,
+          89.285
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 8.271,
+        "elements": [
+          {
+            "selector": "#s11-r1 > span:nth-of-type(1)",
+            "text": "01",
+            "fontPx": 26,
+            "time": 86.247,
+            "seconds": 8.271
+          },
+          {
+            "selector": "#s11-r2 > span:nth-of-type(1)",
+            "text": "02",
+            "fontPx": 26,
+            "time": 86.754,
+            "seconds": 7.764
+          },
+          {
+            "selector": "#s11-r3 > span:nth-of-type(1)",
+            "text": "03",
+            "fontPx": 26,
+            "time": 87.26,
+            "seconds": 7.258
+          },
+          {
+            "selector": "#s11-r4 > span:nth-of-type(1)",
+            "text": "04",
+            "fontPx": 26,
+            "time": 87.766,
+            "seconds": 6.752
+          },
+          {
+            "selector": "#s11-r5 > span:nth-of-type(1)",
+            "text": "05",
+            "fontPx": 26,
+            "time": 88.273,
+            "seconds": 6.245
+          },
+          {
+            "selector": "#s11-r6 > span:nth-of-type(1)",
+            "text": "06",
+            "fontPx": 26,
+            "time": 88.779,
+            "seconds": 5.739
+          },
+          {
+            "selector": "#s11-r7 > span:nth-of-type(1)",
+            "text": "07",
+            "fontPx": 26,
+            "time": 89.285,
+            "seconds": 5.233
+          }
+        ]
+      },
+      {
+        "code": "line_unread",
+        "severity": "warning",
+        "message": "The film's last line \"Install once, film one take and start with captions and c...\" (33 words) is on screen 5.56 s (±0.01 s), under the 7.80 s a closing line needs: hold it about 0.5 s + 0.3 s a word and at least 2 s before the film ends; see references/motion.md.",
+        "text": "Install once, film one take and start with captions and cut pauses. When that feels easy, ask for your first 3D effect on camera and watch Claude build it on the exact word.",
+        "selector": "#s12-lede",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s12.html",
+        "bbox": {
+          "x": 419.97,
+          "y": 587.98,
+          "width": 1080.05,
+          "height": 120
+        },
+        "time": 95.541,
+        "words": 33,
+        "seconds": 5.565,
+        "floorSeconds": 7.8
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and \"Adapted and redesigned by Ideabro Studio from...\" renders at 22 px for 1.86 s: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Adapted and redesigned by Ideabro Studio from \"Let Claude Edit Your Videos\" by @pauloshimas, The Creator Stack (2026).",
+        "selector": "#s12-credit",
+        "dataAttributes": {},
+        "sourceFile": "compositions/s12.html",
+        "bbox": {
+          "x": 315.25,
+          "y": 930,
+          "width": 1289.48,
+          "height": 26
+        },
+        "time": 99.243,
+        "times": [
+          99.243
+        ],
+        "fontPx": 22,
+        "floorPx": 28,
+        "seconds": 1.857,
+        "elements": [
+          {
+            "selector": "#s12-credit",
+            "text": "Adapted and redesigned by Ideabro Studio from \"Let Claude Edit Your Videos\" by @pauloshimas, The Creator Stack (2026).",
+            "fontPx": 22,
+            "time": 99.243,
+            "seconds": 1.857
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.16899999999999693,
+    "samples": 599
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "67cd2bf5-81e5-420a-b158-309ff737472d",
+    "revision": null,
+    "report": "/home/user/vibe-edit/projects/guide-explainer/hyperframes/.hyperframes/artifacts/checks/67cd2bf5-81e5-420a-b158-309ff737472d.json",
+    "attribution": "unversioned"
+  },
+  "_meta": {
+    "version": "0.8.199",
+    "latestVersion": "0.8.199",
+    "updateAvailable": false
+  }
+}

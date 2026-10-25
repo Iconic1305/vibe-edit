@@ -1,0 +1,210 @@
+[
+  {
+    "kind": "title",
+    "id": "s00",
+    "headline": "Vibe Editing System",
+    "byline": "By Ideabro Studio",
+    "tagline": "Let Claude Edit Your Videos",
+    "sub": "Claude Code + HyperFrames · Whisper · FFmpeg · No editing app"
+  },
+  {
+    "kind": "split",
+    "id": "s01",
+    "index": 1,
+    "total": 12,
+    "kicker": "00 · START HERE",
+    "headline": "No timeline. You just ask.",
+    "lede": "Claude does not open Premiere or CapCut. It writes your edit as code with HyperFrames, a free tool that turns a web page into a video, and renders it as an MP4.",
+    "rows": [
+      "You film",
+      "Claude listens",
+      "Claude looks",
+      "Claude builds",
+      "You review, Claude renders"
+    ],
+    "credit": ""
+  },
+  {
+    "kind": "split",
+    "id": "s02",
+    "index": 2,
+    "total": 12,
+    "kicker": "01 · WHAT CLAUDE NEEDS",
+    "headline": "Six tools. Five are free.",
+    "lede": "This is the whole kit, and you install it once. Claude Code is the only part you pay for. The other five are free and open source.",
+    "rows": [
+      "The editor · Claude Code",
+      "The engine · HyperFrames",
+      "The ears · Whisper",
+      "The eyes and the scissors · FFmpeg",
+      "The helper · Python 3",
+      "The motor · Node.js 22+"
+    ],
+    "credit": ""
+  },
+  {
+    "kind": "split",
+    "id": "s03",
+    "index": 3,
+    "total": 12,
+    "kicker": "02 · INSTALL IT ONCE",
+    "headline": "Fifteen minutes, one time.",
+    "lede": "Install Claude Code first. Then paste the prompt below and let Claude install the rest (it asks before each step), or run the commands yourself.",
+    "rows": [
+      "Install Claude Code",
+      "Install Node.js, FFmpeg and Python",
+      "Install Whisper",
+      "Add HyperFrames to Claude",
+      "Check everything",
+      "Let Claude install the rest"
+    ],
+    "credit": ""
+  },
+  {
+    "kind": "split",
+    "id": "s04",
+    "index": 4,
+    "total": 12,
+    "kicker": "03 · EYES AND EARS",
+    "headline": "Give Claude eyes and ears.",
+    "lede": "Claude reads text and looks at images, but it cannot play a video file.",
+    "rows": [
+      "Ears · Whisper",
+      "Eyes · FFmpeg",
+      "Word timings from a real take",
+      "Your first prompt"
+    ],
+    "credit": ""
+  },
+  {
+    "kind": "split",
+    "id": "s05",
+    "index": 5,
+    "total": 12,
+    "kicker": "04 · FILM IT RIGHT",
+    "headline": "Record a take Claude can edit.",
+    "lede": "Claude can only edit what the camera caught. Five minutes of prep here decides how clean your cutouts, captions and effects look. A phone is enough.",
+    "rows": [
+      "Camera and light · Set up the shot",
+      "While you talk · Talk to your editor",
+      "Test your shot first"
+    ],
+    "credit": ""
+  },
+  {
+    "kind": "split",
+    "id": "s06",
+    "index": 6,
+    "total": 12,
+    "kicker": "05 · THE EDIT LOOP",
+    "headline": "Plan, build, watch, repeat.",
+    "lede": "Every edit runs through the same loop. Two habits make it fast: plan before Claude builds anything, and give notes like a director.",
+    "rows": [
+      "Plan it first",
+      "Cut the dead air",
+      "Build",
+      "Preview and give notes",
+      "Render",
+      "Plan first",
+      "Notes that work"
+    ],
+    "credit": ""
+  },
+  {
+    "kind": "split",
+    "id": "s07",
+    "index": 7,
+    "total": 12,
+    "kicker": "06 · EVERYDAY EDITS",
+    "headline": "The basics, ready to paste.",
+    "lede": "Start here. These are the edits every talking video needs, and they tend to work on the first try.",
+    "rows": [
+      "Captions",
+      "Cut the dead air",
+      "Punch-in zooms",
+      "Title card + name tag",
+      "Pop-ups",
+      "Music + sound effects",
+      "Reframe for Reels"
+    ],
+    "credit": ""
+  },
+  {
+    "kind": "split",
+    "id": "s08",
+    "index": 8,
+    "total": 12,
+    "kicker": "07 · SHOW-OFF EDITS",
+    "headline": "Edits that make people rewatch.",
+    "lede": "These take more prep, and they are the ones people share. Each line in quotes is something you can say on camera, word for word.",
+    "rows": [
+      "Logo on your hand, then at the camera",
+      "Split the scene into layers",
+      "A split-screen explainer",
+      "Your reels floating in 3D",
+      "An object comes to life"
+    ],
+    "credit": ""
+  },
+  {
+    "kind": "split",
+    "id": "s09",
+    "index": 9,
+    "total": 12,
+    "kicker": "08 · ANY STYLE YOU WANT",
+    "headline": "Show it, or just name it.",
+    "lede": "Want a specific motion graphic or editing style? Show Claude an example and ask for something similar, built around what you say.",
+    "rows": [
+      "Your own references · Show it an example",
+      "Famous styles · Just name it",
+      "Show it an example",
+      "Just name it"
+    ],
+    "credit": ""
+  },
+  {
+    "kind": "split",
+    "id": "s10",
+    "index": 10,
+    "total": 12,
+    "kicker": "09 · BEST USE CASES",
+    "headline": "Where Claude really shines.",
+    "lede": "Claude edits best when the video is built on words: someone talking, a list, a process, numbers.",
+    "rows": [
+      "Use it for · Where it shines",
+      "Skip it for · Where it struggles",
+      "Try a batch"
+    ],
+    "credit": ""
+  },
+  {
+    "kind": "split",
+    "id": "s11",
+    "index": 11,
+    "total": 12,
+    "kicker": "10 · FIX IT FAST",
+    "headline": "When something looks off.",
+    "lede": "Most problems have a one-line fix. Describe what you see and when, or paste the error, and let Claude work. These are the ones you will run into first.",
+    "rows": [
+      "Names spelled wrong",
+      "Text hidden by the app buttons",
+      "The effect lands late",
+      "Claude says it's done, but it looks wrong",
+      "The preview or the render fails",
+      "A change broke something",
+      "Habits · Work like a director"
+    ],
+    "credit": ""
+  },
+  {
+    "kind": "statement",
+    "id": "s12",
+    "index": 12,
+    "total": 12,
+    "kicker": "11 · THE TAKEAWAY",
+    "headline": "You talk. Claude edits.",
+    "lede": "Install once, film one take and start with captions and cut pauses. When that feels easy, ask for your first 3D effect on camera and watch Claude build it on the exact word.",
+    "rows": [],
+    "credit": "Adapted and redesigned by Ideabro Studio from \"Let Claude Edit Your Videos\" by @pauloshimas, The Creator Stack (2026)."
+  }
+]

@@ -1,0 +1,59 @@
+<template>
+<style>
+    #root { position:absolute; inset:0; background:#0d0f14; font-family:'Inter',sans-serif; color:#f5f5f0; overflow:hidden; }
+    #s04-wrap { position:absolute; inset:0; }
+    #s04-bg { position:absolute; inset:0; background:radial-gradient(1200px 700px at 85% 10%, #1b2230 0%, #0d0f14 70%); }
+    #s04-kicker { font-size:28px; font-weight:700; letter-spacing:.14em; color:#FFD400; }
+    #s04-head { font-weight:900; letter-spacing:-.03em; line-height:1.03; }
+    #s04-lede { font-size:30px; line-height:1.4; color:#c8ccd6; font-weight:400; }
+    #s04-prog { position:absolute; left:192px; right:192px; top:1000px; display:flex; gap:8px; }
+    #s04-prog i { flex:1; height:6px; background:#222836; border-radius:3px; position:relative; overflow:hidden; display:block; }
+    #s04-prog i b { position:absolute; inset:0; background:#FFD400; transform-origin:left center; display:block; }
+    
+    #s04-left { position:absolute; left:192px; top:150px; width:700px; display:flex; flex-direction:column; gap:30px; }
+    #s04-head { font-size:84px; }
+    #s04-list { position:absolute; left:1000px; width:728px; top:130px; bottom:130px; list-style:none; display:flex; flex-direction:column; justify-content:center; gap:14px; }
+    #s04-list li { display:flex; align-items:center; gap:22px; min-height:78px; padding:14px 26px; background:#161b26; border-left:6px solid #FFD400; border-radius:4px; }
+    #s04-list .n { font-size:26px; font-weight:900; color:#FFD400; min-width:44px; }
+    #s04-list .t { font-size:34px; font-weight:700; line-height:1.2; }
+    </style>
+<div id="root" data-composition-id="s04" data-width="1920" data-height="1080">
+<div id="s04-wrap" class="clip" data-start="0" data-duration="6.6">
+<div id="s04-bg"></div>
+<div id="s04-left"><div id="s04-kicker">03 · EYES AND EARS</div>
+<h2 id="s04-head">Give Claude eyes and ears.</h2>
+<p id="s04-lede">Claude reads text and looks at images, but it cannot play a video file.</p></div>
+<ol id="s04-list">
+<li id="s04-r1"><span class="n">01</span><span class="t">Ears · Whisper</span></li>
+<li id="s04-r2"><span class="n">02</span><span class="t">Eyes · FFmpeg</span></li>
+<li id="s04-r3"><span class="n">03</span><span class="t">Word timings from a real take</span></li>
+<li id="s04-r4"><span class="n">04</span><span class="t">Your first prompt</span></li>
+</ol>
+<div id="s04-prog"><i><b id="s04-p1"></b></i><i><b id="s04-p2"></b></i><i><b id="s04-p3"></b></i><i><b id="s04-p4"></b></i><i><b id="s04-p5"></b></i><i><b id="s04-p6"></b></i><i><b id="s04-p7"></b></i><i><b id="s04-p8"></b></i><i><b id="s04-p9"></b></i><i><b id="s04-p10"></b></i><i><b id="s04-p11"></b></i><i><b id="s04-p12"></b></i></div>
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#s04-kicker", {opacity:0,x:-30}, {opacity:1,x:0,duration:.5,ease:'power3.out'}, 0.1);
+tl.fromTo("#s04-head", {opacity:0,y:50}, {opacity:1,y:0,duration:.6,ease:'power4.out'}, 0.25);
+tl.fromTo("#s04-lede", {opacity:0,y:20}, {opacity:1,y:0,duration:.6,ease:'power2.out'}, 0.8);
+tl.fromTo("#s04-r1", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 1.1);
+tl.fromTo("#s04-r2", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 1.6);
+tl.fromTo("#s04-r3", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 2.1);
+tl.fromTo("#s04-r4", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 2.6);
+tl.set("#s04-p1", {scaleX:1}, 0);
+tl.set("#s04-p2", {scaleX:1}, 0);
+tl.set("#s04-p3", {scaleX:1}, 0);
+tl.fromTo("#s04-p4", {scaleX:0}, {scaleX:1,duration:5.6,ease:'none'}, 0.2);
+tl.set("#s04-p5", {scaleX:0}, 0);
+tl.set("#s04-p6", {scaleX:0}, 0);
+tl.set("#s04-p7", {scaleX:0}, 0);
+tl.set("#s04-p8", {scaleX:0}, 0);
+tl.set("#s04-p9", {scaleX:0}, 0);
+tl.set("#s04-p10", {scaleX:0}, 0);
+tl.set("#s04-p11", {scaleX:0}, 0);
+tl.set("#s04-p12", {scaleX:0}, 0);
+tl.fromTo("#s04-wrap", {opacity:1}, {opacity:0,duration:.25,ease:'power1.in'}, 6.3);
+window.__timelines["s04"] = tl;
+</script>
+</template>

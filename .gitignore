@@ -1,7 +1,25 @@
-# Original media and generated output stay out of git
-input/*
-exports/*
-previews/*
-!*/.gitkeep
+# Raw media and generated render artefacts stay local; sources, specs, transcripts and final exports are tracked.
+projects/*/input/*
+!projects/*/input/.gitkeep
+!projects/*/input/brief.md
+projects/*/previews/*
+!projects/*/previews/.gitkeep
+projects/*/versions/*
+!projects/*/versions/.gitkeep
+projects/*/work/*_frames/
+projects/*/work/*.cut.mp4
+projects/*/work/*.cut.filter.txt
+projects/*/hyperframes/assets/*.mp4
+projects/*/hyperframes/assets/*.mov
+projects/*/hyperframes/assets/*.mkv
+projects/*/hyperframes/.hyperframes/
+projects/*/hyperframes/renders/
+projects/*/exports/*.rendering.mp4
 node_modules/
+__pycache__/
+*.pyc
 .DS_Store
+.env
+.env.*
+*.pem
+*.key

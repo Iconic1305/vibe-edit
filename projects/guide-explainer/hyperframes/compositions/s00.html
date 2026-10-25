@@ -1,0 +1,39 @@
+<template>
+<style>
+    #root { position:absolute; inset:0; background:#0d0f14; font-family:'Inter',sans-serif; color:#f5f5f0; overflow:hidden; }
+    #s00-wrap { position:absolute; inset:0; }
+    #s00-bg { position:absolute; inset:0; background:radial-gradient(1200px 700px at 85% 10%, #1b2230 0%, #0d0f14 70%); }
+    #s00-kicker { font-size:28px; font-weight:700; letter-spacing:.14em; color:#FFD400; }
+    #s00-head { font-weight:900; letter-spacing:-.03em; line-height:1.03; }
+    #s00-lede { font-size:30px; line-height:1.4; color:#c8ccd6; font-weight:400; }
+    #s00-prog { position:absolute; left:192px; right:192px; top:1000px; display:flex; gap:8px; }
+    #s00-prog i { flex:1; height:6px; background:#222836; border-radius:3px; position:relative; overflow:hidden; display:block; }
+    #s00-prog i b { position:absolute; inset:0; background:#FFD400; transform-origin:left center; display:block; }
+    
+    #s00-center { position:absolute; left:192px; right:192px; top:0; bottom:0; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; gap:34px; }
+    #s00-head { font-size:128px; }
+    #s00-lede { max-width:1100px; }
+    #s00-sub { font-size:32px; color:#c8ccd6; font-weight:400; }
+    #s00-by { font-size:30px; font-weight:700; letter-spacing:.12em; color:#FFD400; text-transform:uppercase; }
+    #s00-credit { position:absolute; left:192px; right:192px; top:930px; text-align:center; font-size:22px; color:#8b93a3; }
+    </style>
+<div id="root" data-composition-id="s00" data-width="1920" data-height="1080">
+<div id="s00-wrap" class="clip" data-start="0" data-duration="5.0">
+<div id="s00-bg"></div>
+<div id="s00-center">
+<div id="s00-by">By Ideabro Studio</div>
+<h1 id="s00-head">Vibe Editing System</h1>
+<div id="s00-kicker">LET CLAUDE EDIT YOUR VIDEOS</div>
+<p id="s00-sub">Claude Code + HyperFrames · Whisper · FFmpeg · No editing app</p></div>
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#s00-by", {opacity:0,y:-20}, {opacity:1,y:0,duration:.5,ease:'power3.out'}, 0.2);
+tl.fromTo("#s00-head", {opacity:0,y:60}, {opacity:1,y:0,duration:.7,ease:'power4.out'}, 0.5);
+tl.fromTo("#s00-kicker", {opacity:0,y:30}, {opacity:1,y:0,duration:.5,ease:'power3.out'}, 1.3);
+tl.fromTo("#s00-sub", {opacity:0}, {opacity:1,duration:.6,ease:'power2.out'}, 1.9);
+tl.fromTo("#s00-wrap", {opacity:1}, {opacity:0,duration:.25,ease:'power1.in'}, 4.7);
+window.__timelines["s00"] = tl;
+</script>
+</template>

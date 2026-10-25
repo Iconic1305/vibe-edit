@@ -1,0 +1,65 @@
+<template>
+<style>
+    #root { position:absolute; inset:0; background:#0d0f14; font-family:'Inter',sans-serif; color:#f5f5f0; overflow:hidden; }
+    #s07-wrap { position:absolute; inset:0; }
+    #s07-bg { position:absolute; inset:0; background:radial-gradient(1200px 700px at 85% 10%, #1b2230 0%, #0d0f14 70%); }
+    #s07-kicker { font-size:28px; font-weight:700; letter-spacing:.14em; color:#FFD400; }
+    #s07-head { font-weight:900; letter-spacing:-.03em; line-height:1.03; }
+    #s07-lede { font-size:30px; line-height:1.4; color:#c8ccd6; font-weight:400; }
+    #s07-prog { position:absolute; left:192px; right:192px; top:1000px; display:flex; gap:8px; }
+    #s07-prog i { flex:1; height:6px; background:#222836; border-radius:3px; position:relative; overflow:hidden; display:block; }
+    #s07-prog i b { position:absolute; inset:0; background:#FFD400; transform-origin:left center; display:block; }
+    
+    #s07-left { position:absolute; left:192px; top:150px; width:700px; display:flex; flex-direction:column; gap:30px; }
+    #s07-head { font-size:84px; }
+    #s07-list { position:absolute; left:1000px; width:728px; top:130px; bottom:130px; list-style:none; display:flex; flex-direction:column; justify-content:center; gap:14px; }
+    #s07-list li { display:flex; align-items:center; gap:22px; min-height:78px; padding:14px 26px; background:#161b26; border-left:6px solid #FFD400; border-radius:4px; }
+    #s07-list .n { font-size:26px; font-weight:900; color:#FFD400; min-width:44px; }
+    #s07-list .t { font-size:34px; font-weight:700; line-height:1.2; }
+    </style>
+<div id="root" data-composition-id="s07" data-width="1920" data-height="1080">
+<div id="s07-wrap" class="clip" data-start="0" data-duration="8.6">
+<div id="s07-bg"></div>
+<div id="s07-left"><div id="s07-kicker">06 · EVERYDAY EDITS</div>
+<h2 id="s07-head">The basics, ready to paste.</h2>
+<p id="s07-lede">Start here. These are the edits every talking video needs, and they tend to work on the first try.</p></div>
+<ol id="s07-list">
+<li id="s07-r1"><span class="n">01</span><span class="t">Captions</span></li>
+<li id="s07-r2"><span class="n">02</span><span class="t">Cut the dead air</span></li>
+<li id="s07-r3"><span class="n">03</span><span class="t">Punch-in zooms</span></li>
+<li id="s07-r4"><span class="n">04</span><span class="t">Title card + name tag</span></li>
+<li id="s07-r5"><span class="n">05</span><span class="t">Pop-ups</span></li>
+<li id="s07-r6"><span class="n">06</span><span class="t">Music + sound effects</span></li>
+<li id="s07-r7"><span class="n">07</span><span class="t">Reframe for Reels</span></li>
+</ol>
+<div id="s07-prog"><i><b id="s07-p1"></b></i><i><b id="s07-p2"></b></i><i><b id="s07-p3"></b></i><i><b id="s07-p4"></b></i><i><b id="s07-p5"></b></i><i><b id="s07-p6"></b></i><i><b id="s07-p7"></b></i><i><b id="s07-p8"></b></i><i><b id="s07-p9"></b></i><i><b id="s07-p10"></b></i><i><b id="s07-p11"></b></i><i><b id="s07-p12"></b></i></div>
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#s07-kicker", {opacity:0,x:-30}, {opacity:1,x:0,duration:.5,ease:'power3.out'}, 0.1);
+tl.fromTo("#s07-head", {opacity:0,y:50}, {opacity:1,y:0,duration:.6,ease:'power4.out'}, 0.25);
+tl.fromTo("#s07-lede", {opacity:0,y:20}, {opacity:1,y:0,duration:.6,ease:'power2.out'}, 0.8);
+tl.fromTo("#s07-r1", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 1.1);
+tl.fromTo("#s07-r2", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 1.6);
+tl.fromTo("#s07-r3", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 2.1);
+tl.fromTo("#s07-r4", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 2.6);
+tl.fromTo("#s07-r5", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 3.1);
+tl.fromTo("#s07-r6", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 3.6);
+tl.fromTo("#s07-r7", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 4.1);
+tl.set("#s07-p1", {scaleX:1}, 0);
+tl.set("#s07-p2", {scaleX:1}, 0);
+tl.set("#s07-p3", {scaleX:1}, 0);
+tl.set("#s07-p4", {scaleX:1}, 0);
+tl.set("#s07-p5", {scaleX:1}, 0);
+tl.set("#s07-p6", {scaleX:1}, 0);
+tl.fromTo("#s07-p7", {scaleX:0}, {scaleX:1,duration:7.6,ease:'none'}, 0.2);
+tl.set("#s07-p8", {scaleX:0}, 0);
+tl.set("#s07-p9", {scaleX:0}, 0);
+tl.set("#s07-p10", {scaleX:0}, 0);
+tl.set("#s07-p11", {scaleX:0}, 0);
+tl.set("#s07-p12", {scaleX:0}, 0);
+tl.fromTo("#s07-wrap", {opacity:1}, {opacity:0,duration:.25,ease:'power1.in'}, 8.3);
+window.__timelines["s07"] = tl;
+</script>
+</template>

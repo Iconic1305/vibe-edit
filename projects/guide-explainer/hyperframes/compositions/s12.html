@@ -1,0 +1,51 @@
+<template>
+<style>
+    #root { position:absolute; inset:0; background:#0d0f14; font-family:'Inter',sans-serif; color:#f5f5f0; overflow:hidden; }
+    #s12-wrap { position:absolute; inset:0; }
+    #s12-bg { position:absolute; inset:0; background:radial-gradient(1200px 700px at 85% 10%, #1b2230 0%, #0d0f14 70%); }
+    #s12-kicker { font-size:28px; font-weight:700; letter-spacing:.14em; color:#FFD400; }
+    #s12-head { font-weight:900; letter-spacing:-.03em; line-height:1.03; }
+    #s12-lede { font-size:30px; line-height:1.4; color:#c8ccd6; font-weight:400; }
+    #s12-prog { position:absolute; left:192px; right:192px; top:1000px; display:flex; gap:8px; }
+    #s12-prog i { flex:1; height:6px; background:#222836; border-radius:3px; position:relative; overflow:hidden; display:block; }
+    #s12-prog i b { position:absolute; inset:0; background:#FFD400; transform-origin:left center; display:block; }
+    
+    #s12-center { position:absolute; left:192px; right:192px; top:0; bottom:0; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; gap:34px; }
+    #s12-head { font-size:104px; }
+    #s12-lede { max-width:1100px; }
+    #s12-sub { font-size:32px; color:#c8ccd6; font-weight:400; }
+    #s12-by { font-size:30px; font-weight:700; letter-spacing:.12em; color:#FFD400; text-transform:uppercase; }
+    #s12-credit { position:absolute; left:192px; right:192px; top:930px; text-align:center; font-size:22px; color:#8b93a3; }
+    </style>
+<div id="root" data-composition-id="s12" data-width="1920" data-height="1080">
+<div id="s12-wrap" class="clip" data-start="0" data-duration="6.5">
+<div id="s12-bg"></div>
+<div id="s12-center"><div id="s12-kicker">11 · THE TAKEAWAY</div>
+<h2 id="s12-head">You talk. Claude edits.</h2>
+<p id="s12-lede">Install once, film one take and start with captions and cut pauses. When that feels easy, ask for your first 3D effect on camera and watch Claude build it on the exact word.</p></div>
+<div id="s12-credit">Adapted and redesigned by Ideabro Studio from "Let Claude Edit Your Videos" by @pauloshimas, The Creator Stack (2026).</div>
+<div id="s12-prog"><i><b id="s12-p1"></b></i><i><b id="s12-p2"></b></i><i><b id="s12-p3"></b></i><i><b id="s12-p4"></b></i><i><b id="s12-p5"></b></i><i><b id="s12-p6"></b></i><i><b id="s12-p7"></b></i><i><b id="s12-p8"></b></i><i><b id="s12-p9"></b></i><i><b id="s12-p10"></b></i><i><b id="s12-p11"></b></i><i><b id="s12-p12"></b></i></div>
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#s12-kicker", {opacity:0,x:-30}, {opacity:1,x:0,duration:.5,ease:'power3.out'}, 0.1);
+tl.fromTo("#s12-head", {opacity:0,y:50}, {opacity:1,y:0,duration:.6,ease:'power4.out'}, 0.25);
+tl.fromTo("#s12-lede", {opacity:0,y:20}, {opacity:1,y:0,duration:.6,ease:'power2.out'}, 0.8);
+tl.fromTo("#s12-credit", {opacity:0}, {opacity:1,duration:.6}, 4.3);
+tl.set("#s12-p1", {scaleX:1}, 0);
+tl.set("#s12-p2", {scaleX:1}, 0);
+tl.set("#s12-p3", {scaleX:1}, 0);
+tl.set("#s12-p4", {scaleX:1}, 0);
+tl.set("#s12-p5", {scaleX:1}, 0);
+tl.set("#s12-p6", {scaleX:1}, 0);
+tl.set("#s12-p7", {scaleX:1}, 0);
+tl.set("#s12-p8", {scaleX:1}, 0);
+tl.set("#s12-p9", {scaleX:1}, 0);
+tl.set("#s12-p10", {scaleX:1}, 0);
+tl.set("#s12-p11", {scaleX:1}, 0);
+tl.fromTo("#s12-p12", {scaleX:0}, {scaleX:1,duration:5.5,ease:'none'}, 0.2);
+tl.fromTo("#s12-wrap", {opacity:1}, {opacity:0,duration:.25,ease:'power1.in'}, 6.2);
+window.__timelines["s12"] = tl;
+</script>
+</template>

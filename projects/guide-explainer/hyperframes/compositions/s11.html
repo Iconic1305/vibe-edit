@@ -1,0 +1,65 @@
+<template>
+<style>
+    #root { position:absolute; inset:0; background:#0d0f14; font-family:'Inter',sans-serif; color:#f5f5f0; overflow:hidden; }
+    #s11-wrap { position:absolute; inset:0; }
+    #s11-bg { position:absolute; inset:0; background:radial-gradient(1200px 700px at 85% 10%, #1b2230 0%, #0d0f14 70%); }
+    #s11-kicker { font-size:28px; font-weight:700; letter-spacing:.14em; color:#FFD400; }
+    #s11-head { font-weight:900; letter-spacing:-.03em; line-height:1.03; }
+    #s11-lede { font-size:30px; line-height:1.4; color:#c8ccd6; font-weight:400; }
+    #s11-prog { position:absolute; left:192px; right:192px; top:1000px; display:flex; gap:8px; }
+    #s11-prog i { flex:1; height:6px; background:#222836; border-radius:3px; position:relative; overflow:hidden; display:block; }
+    #s11-prog i b { position:absolute; inset:0; background:#FFD400; transform-origin:left center; display:block; }
+    
+    #s11-left { position:absolute; left:192px; top:150px; width:700px; display:flex; flex-direction:column; gap:30px; }
+    #s11-head { font-size:84px; }
+    #s11-list { position:absolute; left:1000px; width:728px; top:130px; bottom:130px; list-style:none; display:flex; flex-direction:column; justify-content:center; gap:14px; }
+    #s11-list li { display:flex; align-items:center; gap:22px; min-height:78px; padding:14px 26px; background:#161b26; border-left:6px solid #FFD400; border-radius:4px; }
+    #s11-list .n { font-size:26px; font-weight:900; color:#FFD400; min-width:44px; }
+    #s11-list .t { font-size:34px; font-weight:700; line-height:1.2; }
+    </style>
+<div id="root" data-composition-id="s11" data-width="1920" data-height="1080">
+<div id="s11-wrap" class="clip" data-start="0" data-duration="9.6">
+<div id="s11-bg"></div>
+<div id="s11-left"><div id="s11-kicker">10 · FIX IT FAST</div>
+<h2 id="s11-head">When something looks off.</h2>
+<p id="s11-lede">Most problems have a one-line fix. Describe what you see and when, or paste the error, and let Claude work. These are the ones you will run into first.</p></div>
+<ol id="s11-list">
+<li id="s11-r1"><span class="n">01</span><span class="t">Names spelled wrong</span></li>
+<li id="s11-r2"><span class="n">02</span><span class="t">Text hidden by the app buttons</span></li>
+<li id="s11-r3"><span class="n">03</span><span class="t">The effect lands late</span></li>
+<li id="s11-r4"><span class="n">04</span><span class="t">Claude says it's done, but it looks wrong</span></li>
+<li id="s11-r5"><span class="n">05</span><span class="t">The preview or the render fails</span></li>
+<li id="s11-r6"><span class="n">06</span><span class="t">A change broke something</span></li>
+<li id="s11-r7"><span class="n">07</span><span class="t">Habits · Work like a director</span></li>
+</ol>
+<div id="s11-prog"><i><b id="s11-p1"></b></i><i><b id="s11-p2"></b></i><i><b id="s11-p3"></b></i><i><b id="s11-p4"></b></i><i><b id="s11-p5"></b></i><i><b id="s11-p6"></b></i><i><b id="s11-p7"></b></i><i><b id="s11-p8"></b></i><i><b id="s11-p9"></b></i><i><b id="s11-p10"></b></i><i><b id="s11-p11"></b></i><i><b id="s11-p12"></b></i></div>
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#s11-kicker", {opacity:0,x:-30}, {opacity:1,x:0,duration:.5,ease:'power3.out'}, 0.1);
+tl.fromTo("#s11-head", {opacity:0,y:50}, {opacity:1,y:0,duration:.6,ease:'power4.out'}, 0.25);
+tl.fromTo("#s11-lede", {opacity:0,y:20}, {opacity:1,y:0,duration:.6,ease:'power2.out'}, 0.8);
+tl.fromTo("#s11-r1", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 1.1);
+tl.fromTo("#s11-r2", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 1.6);
+tl.fromTo("#s11-r3", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 2.1);
+tl.fromTo("#s11-r4", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 2.6);
+tl.fromTo("#s11-r5", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 3.1);
+tl.fromTo("#s11-r6", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 3.6);
+tl.fromTo("#s11-r7", {opacity:0,x:70}, {opacity:1,x:0,duration:.45,ease:'power3.out'}, 4.1);
+tl.set("#s11-p1", {scaleX:1}, 0);
+tl.set("#s11-p2", {scaleX:1}, 0);
+tl.set("#s11-p3", {scaleX:1}, 0);
+tl.set("#s11-p4", {scaleX:1}, 0);
+tl.set("#s11-p5", {scaleX:1}, 0);
+tl.set("#s11-p6", {scaleX:1}, 0);
+tl.set("#s11-p7", {scaleX:1}, 0);
+tl.set("#s11-p8", {scaleX:1}, 0);
+tl.set("#s11-p9", {scaleX:1}, 0);
+tl.set("#s11-p10", {scaleX:1}, 0);
+tl.fromTo("#s11-p11", {scaleX:0}, {scaleX:1,duration:8.6,ease:'none'}, 0.2);
+tl.set("#s11-p12", {scaleX:0}, 0);
+tl.fromTo("#s11-wrap", {opacity:1}, {opacity:0,duration:.25,ease:'power1.in'}, 9.3);
+window.__timelines["s11"] = tl;
+</script>
+</template>
