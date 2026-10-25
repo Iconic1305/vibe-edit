@@ -1,0 +1,114 @@
+{
+  "note": "SAMPLE: hand-written word timings for the synthetic clip (Whisper's model host is blocked in this session). Not a real transcription.",
+  "source": "/home/user/vibe-edit/projects/sample-talk/work/take.cut.mp4",
+  "language": "en",
+  "duration": 6.78,
+  "segments": [],
+  "words": [
+    {
+      "word": "Hi,",
+      "start": 0.08,
+      "end": 0.28
+    },
+    {
+      "word": "I'm",
+      "start": 0.28,
+      "end": 0.48
+    },
+    {
+      "word": "Sam.",
+      "start": 0.48,
+      "end": 0.98
+    },
+    {
+      "word": "Zoom",
+      "start": 1.31,
+      "end": 1.61
+    },
+    {
+      "word": "in",
+      "start": 1.61,
+      "end": 1.71
+    },
+    {
+      "word": "on",
+      "start": 1.71,
+      "end": 1.81
+    },
+    {
+      "word": "my",
+      "start": 1.81,
+      "end": 1.91
+    },
+    {
+      "word": "hand.",
+      "start": 1.91,
+      "end": 2.41
+    },
+    {
+      "word": "Here",
+      "start": 2.74,
+      "end": 2.94
+    },
+    {
+      "word": "is",
+      "start": 2.94,
+      "end": 3.04
+    },
+    {
+      "word": "the",
+      "start": 3.04,
+      "end": 3.14
+    },
+    {
+      "word": "logo.",
+      "start": 3.14,
+      "end": 3.64
+    },
+    {
+      "word": "Now",
+      "start": 3.97,
+      "end": 4.17
+    },
+    {
+      "word": "throw",
+      "start": 4.17,
+      "end": 4.47
+    },
+    {
+      "word": "it",
+      "start": 4.47,
+      "end": 4.57
+    },
+    {
+      "word": "at",
+      "start": 4.57,
+      "end": 4.67
+    },
+    {
+      "word": "the",
+      "start": 4.67,
+      "end": 4.77
+    },
+    {
+      "word": "camera.",
+      "start": 4.77,
+      "end": 5.37
+    },
+    {
+      "word": "Follow",
+      "start": 5.7,
+      "end": 6.1
+    },
+    {
+      "word": "for",
+      "start": 6.1,
+      "end": 6.2
+    },
+    {
+      "word": "more.",
+      "start": 6.2,
+      "end": 6.7
+    }
+  ]
+}

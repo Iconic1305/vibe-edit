@@ -1,0 +1,19 @@
+<template>
+<style>
+#root { position:absolute; inset:0; background:#0d0f14; font-family:'Inter',sans-serif; color:#FFFFFF; }
+#t-wrap { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:36px; padding:0 129px; text-align:center; }
+#t-text { font-size:120px; font-weight:900; letter-spacing:-.03em; line-height:1.04; }
+#t-sub { font-size:40px; font-weight:700; color:#FFD400; letter-spacing:.06em; }
+</style>
+<div id="root" data-composition-id="title" data-width="1080" data-height="1920">
+<div id="t-wrap" class="clip" data-start="0" data-duration="2.000">
+<div id="t-text">Sample Talk</div><div id="t-sub">@vibe-edit</div>
+</div></div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#t-text",{opacity:0,y:50,scale:.94},{opacity:1,y:0,scale:1,duration:.5,ease:"power4.out"},0.1);
+tl.fromTo("#t-sub",{opacity:0,y:20},{opacity:1,y:0,duration:.4,ease:"power3.out"},0.5);
+tl.fromTo("#t-wrap",{opacity:1},{opacity:0,duration:.18,ease:"power1.in"},1.800);
+window.__timelines["title"] = tl;
+</script>
+</template>

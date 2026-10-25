@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>sample-talk</title>
+    <script src="vendor/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #0d0f14; }
+      #zoomwrap, #punchwrap { position: absolute; inset: 0; }
+      #zoomwrap { overflow: hidden; }
+      #take { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; object-fit: cover; object-position: 50% 50%; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="8.805" data-width="1080" data-height="1920">
+      <div id="zoomwrap"><div id="punchwrap" data-layout-allow-overflow>
+        <video id="take" class="clip" src="assets/take.cut.mp4" data-start="2.000" data-duration="6.805" data-track-index="0" playsinline data-has-audio="true"></video>
+      </div></div>
+            <div id="title" data-composition-id="title" data-composition-src="compositions/title.html" data-start="0" data-duration="2.000" data-track-index="5" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:50"></div>
+      <div id="caps" data-composition-id="caps" data-composition-src="compositions/captions.html" data-start="0" data-duration="8.805" data-track-index="3" data-track-kind="captions" data-width="1080" data-height="1920" style="z-index:30"></div>
+      <div id="fx" data-composition-id="fx" data-composition-src="compositions/overlays.html" data-start="0" data-duration="8.805" data-track-index="2" data-track-kind="graphics" data-width="1080" data-height="1920" style="z-index:40"></div>
+            <audio id="sfx0" src="assets/sfx/boom.wav" data-start="0.100" data-duration="1.000" data-volume="0.7"></audio>
+      <audio id="sfx1" src="assets/sfx/click.wav" data-start="2.080" data-duration="0.050" data-volume="0.7"></audio>
+      <audio id="sfx2" src="assets/sfx/click.wav" data-start="3.230" data-duration="0.050" data-volume="0.7"></audio>
+      <audio id="sfx3" src="assets/sfx/pop.wav" data-start="3.910" data-duration="0.180" data-volume="0.7"></audio>
+      <audio id="sfx4" src="assets/sfx/whoosh.wav" data-start="3.910" data-duration="0.700" data-volume="0.7"></audio>
+      <audio id="sfx5" src="assets/sfx/click.wav" data-start="4.660" data-duration="0.050" data-volume="0.7"></audio>
+      <audio id="sfx6" src="assets/sfx/pop.wav" data-start="5.140" data-duration="0.180" data-volume="0.7"></audio>
+      <audio id="sfx7" src="assets/sfx/click.wav" data-start="5.890" data-duration="0.050" data-volume="0.7"></audio>
+      <audio id="sfx8" src="assets/sfx/boom.wav" data-start="6.970" data-duration="1.000" data-volume="0.7"></audio>
+      <audio id="sfx9" src="assets/sfx/click.wav" data-start="7.620" data-duration="0.050" data-volume="0.7"></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#zoomwrap",{scale:1,transformOrigin:"50% 60%"},{scale:1.3,transformOrigin:"50% 60%",duration:.35,ease:"power3.out"},3.910);
+      tl.fromTo("#zoomwrap",{scale:1.3,transformOrigin:"50% 60%"},{scale:1,transformOrigin:"50% 60%",duration:.5,ease:"power2.inOut",immediateRender:false},5.410);
+      tl.set("#punchwrap",{scale:1.0,transformOrigin:"50% 40%"},2.000);
+      tl.set("#punchwrap",{scale:1.08,transformOrigin:"50% 40%"},3.230);
+      tl.set("#punchwrap",{scale:1.0,transformOrigin:"50% 40%"},4.660);
+      tl.set("#punchwrap",{scale:1.08,transformOrigin:"50% 40%"},5.890);
+      tl.set("#punchwrap",{scale:1.0,transformOrigin:"50% 40%"},7.620);
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

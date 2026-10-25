@@ -1,0 +1,25 @@
+{
+  "source": "input/take.mp4",
+  "segments": [
+    {
+      "start": 0.42,
+      "end": 1.65
+    },
+    {
+      "start": 2.52,
+      "end": 3.95
+    },
+    {
+      "start": 4.92,
+      "end": 6.15
+    },
+    {
+      "start": 7.12,
+      "end": 8.85
+    },
+    {
+      "start": 9.92,
+      "end": 11.08
+    }
+  ]
+}
