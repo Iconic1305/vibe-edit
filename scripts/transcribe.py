@@ -45,6 +45,7 @@ def main():
     ap.add_argument("--device", default="auto", help="auto, cpu or cuda")
     ap.add_argument("--prompt", default=None, help="extra initial prompt, e.g. a Roman-script Hinglish sentence to bias the output script")
     ap.add_argument("--beam", type=int, default=5)
+    ap.add_argument("--out-dir", default=None, help="write the .words.json/.transcript.txt here instead of <project>/work (use for verification runs so real transcripts are never overwritten)")
     ap.add_argument("--clean", action="store_true", help="denoise + normalise loudness before transcribing (quiet or noisy takes)")
     args = ap.parse_args()
 
@@ -57,7 +58,8 @@ def main():
     if not video.exists():
         sys.exit(f"Not found: {video}")
 
-    WORK = work_dir(video)
+    WORK = Path(args.out_dir) if args.out_dir else work_dir(video)
+    WORK.mkdir(parents=True, exist_ok=True)
     names, fixes = load_names(project_root(video) / "names.txt")
     hint = " ".join(x for x in [args.prompt, ("Names: " + ", ".join(names) + ".") if names else None] if x) or None
 

@@ -52,25 +52,19 @@
     "origin": "50% 35%"
    },
    {
-    "at": 7.64,
+    "at": 6.94,
     "scale": 1.14,
     "hold": 1.4,
     "origin": "50% 35%"
    },
    {
-    "at": 13.87,
+    "at": 13.17,
     "scale": 1.14,
     "hold": 1.2,
     "origin": "50% 35%"
    },
    {
-    "at": 32.1,
-    "scale": 1.18,
-    "hold": 1.0,
-    "origin": "50% 35%"
-   },
-   {
-    "at": 43.8,
+    "at": 35.79,
     "scale": 1.16,
     "hold": 1.2,
     "origin": "50% 35%"
@@ -108,12 +102,12 @@
  "builder": "reel",
  "broll": [
   {
+   "layout": "mac",
    "src_size": [
     1920,
     1248
    ],
-   "layout": "mac",
-   "at": 19.46,
+   "at": 18.0,
    "duration": 3.76,
    "video": "work/proxy/Screen_Recording_2026-10-05_at_2.05.45AM.mp4",
    "media_start": 16.0,
@@ -131,12 +125,12 @@
    }
   },
   {
+   "layout": "mac",
    "src_size": [
     1920,
     1248
    ],
-   "layout": "mac",
-   "at": 25.18,
+   "at": 23.72,
    "duration": 5.57,
    "video": "work/proxy/Screen_Recording_2026-10-05_at_3.38.07AM.mp4",
    "media_start": 13.0,
@@ -154,13 +148,13 @@
    }
   },
   {
+   "layout": "mac",
    "src_size": [
     1920,
     1248
    ],
-   "layout": "mac",
-   "at": 32.38,
-   "duration": 4.8,
+   "at": 30.09,
+   "duration": 1.83,
    "video": "work/proxy/Screen_Recording_2026-10-05_at_3.41.36AM.mp4",
    "media_start": 3.0,
    "speed": 1.0,
@@ -177,16 +171,16 @@
    }
   },
   {
-   "src_size": [
-    720,
-    1564
-   ],
    "layout": "phone",
-   "at": 37.18,
-   "duration": 4.64,
+   "src_size": [
+    1080,
+    2346
+   ],
+   "at": 31.92,
+   "duration": 3.75,
    "video": "work/proxy/ScreenRecording_10-06-2026_15-17-17_1.mp4",
    "media_start": 1.0,
-   "speed": 2.6,
+   "speed": 1.6,
    "zoom": 1.0,
    "chip": {
     "kicker": "LIVE",

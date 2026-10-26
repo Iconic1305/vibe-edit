@@ -10,9 +10,9 @@
 
 ## IMG_6060  (work/proxy/IMG_6060.mp4)
 
-- shown: **Bulandshahr ke andar D' Closet sabse bada viral hai, aur usko host karti hain, uski founder hain Priyanshi Di.**
-- heard: Bulandshahr के अंदर D' Closet सबसे रदा वारेल हैं, और उसको पूरी website के founder हैं, Priyanshi Di.
-- low-confidence words: Bulandshahr, D', host, karti, uski founder, Di.
+- shown: **D' Closet sabse bada viral hai, aur usko host karti hain, uski founder hain Priyanshi Di.**
+- heard: D' Closet सबसे रदा वारेल हैं, और उसको पूरी website के founder हैं, Priyanshi Di.
+- low-confidence words: D', host, karti, uski founder, Di.
 
 
 ## IMG_6061  (work/proxy/IMG_6061.mp4)
@@ -24,8 +24,8 @@
 
 ## IMG_6067  (work/proxy/IMG_6067.mp4)
 
-- shown: **Toh sabse pehle ChatGPT par jaenge aur ChatGPT ko hamare business ki jo bhi details hamare paas available hain, with logo, ChatGPT ko de denge.**
-- heard: तो सबसे पहले ChatGPT पर जाएंगे और ChatGPT को हमारे business की जोभी details हमारे पास अविलेबिल हैं, विद लोगो, ChatGPT को दे देंगे.
+- shown: **Toh sabse pehle ChatGPT par jaenge aur hamare business ki jo bhi details hamare paas available hain, with logo, ChatGPT ko de denge.**
+- heard: तो सबसे पहले ChatGPT पर जाएंगे और हमारे business की जोभी details हमारे पास अविलेबिल हैं, विद लोगो, ChatGPT को दे देंगे.
 - low-confidence words: business
 
 
@@ -45,9 +45,8 @@
 
 ## IMG_6132  (work/proxy/IMG_6132.mp4)
 
-- shown: **Claude Design ko jo bhi output dekhne ko milega, vo amazing hoga, agar aapko pasand aata hai, toh like zaroor karna video ko, aur account ko follow bhi kar lena.**
-- heard: Claude Design को जोभी output देखने को मिलेगा, वो amazing होगा, अगर आपको पसंद आता है, तो like जरूर करना वीडियो को, और account को follow भी कर लेना.
-- low-confidence words: Design, output
+- shown: **agar aapko pasand aata hai, toh like zaroor karna video ko,**
+- heard: अगर आपको पसंद आता है, तो like जरूर करना वीडियो को,
 
 
 ## IMG_6072  (work/proxy/IMG_6072.mp4)

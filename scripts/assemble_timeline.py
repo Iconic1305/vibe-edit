@@ -60,6 +60,45 @@ def overlap(a0, a1, b0, b1):
     return max(0.0, min(a1, b1) - max(a0, b0))
 
 
+def cut_spans(words, drop):
+    """Time spans of dropped words (contiguous runs merged), shrunk a hair so neighbouring words are not clipped."""
+    spans, run = [], []
+    for i in sorted(drop):
+        if run and i == run[-1] + 1:
+            run.append(i)
+        else:
+            if run:
+                spans.append(run)
+            run = [i]
+    if run:
+        spans.append(run)
+    out = []
+    for r in spans:
+        a, b = words[r[0]]["start"] + 0.02, words[r[-1]]["end"] - 0.02
+        if b > a:
+            out.append((a, b))
+    return out
+
+
+def subtract(segs, spans, min_len=0.08):
+    out = []
+    for a, b in segs:
+        pieces = [(a, b)]
+        for c0, c1 in spans:
+            nxt = []
+            for x, y in pieces:
+                if c1 <= x or c0 >= y:
+                    nxt.append((x, y))
+                else:
+                    if c0 > x:
+                        nxt.append((x, c0))
+                    if c1 < y:
+                        nxt.append((c1, y))
+            pieces = nxt
+        out += [(x, y) for x, y in pieces if y - x >= min_len]
+    return out
+
+
 def plan_clip(clip, hl, total_dur, db):
     words = json.loads(Path(clip["words"]).read_text())["words"]
     drop = set(hl.get("drop", []))
@@ -103,6 +142,8 @@ def plan_clip(clip, hl, total_dur, db):
                 w["realigned"] = True
         segs.append((s0, s1))
         words_out += ws
+    # dropped words (repeats, stutters, noise) are cut from the audio/video too, not only from the captions
+    segs = subtract(segs, cut_spans(words, drop))
     return segs, words_out
 
 

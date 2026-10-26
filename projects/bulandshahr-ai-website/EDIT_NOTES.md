@@ -1,6 +1,16 @@
 # Edit notes: Bulandshahr AI website video (D' Closet)
 
-Final: `exports/bulandshahr-ai-website.mp4` · 9:16 · 1080×1920 · 30 fps · ~45 s · Hinglish captions · no music (none supplied)
+Final (v2): `exports/bulandshahr-ai-website_web.mp4` (share, 27 MB, in git) and `exports/bulandshahr-ai-website.mp4` (full-quality master, local only)
+9:16 · 1080×1920 · 30 fps · 37 s · Hinglish captions · no music (none supplied). v1 is kept as `exports/bulandshahr-ai-website_v1_web.mp4`.
+
+## v2 changes (after feedback: repeated lines + faded picture)
+
+- **Repeats removed from captions AND audio/video** (dropped words are now cut from the audio too):
+  "ChatGPT" said 3x in one sentence (kept 1st and last, cut the middle), the "jo bhi output ... vo amazing / dekhne layak hoga" line said twice
+  (kept the IMG_6119 version), the "follow" ask said twice (kept IMG_6072; IMG_6132 now only has the "like" ask), and
+  "Bulandshahr ke andar" repeating the hook (cut). Length 45 s -> 37 s.
+- **Faded picture fixed**: the iPhone footage is HDR (HLG). The v1 conversion to SDR was too washed out. v2 tone-maps in linear light
+  before the gamut conversion with a 0.8 saturation grade (`scripts/make_proxies.sh`), giving natural skin and a blue wall.
 
 ## Footage inventory (all 16 originals are in `input/`, untouched; `input/` is git-ignored)
 
